@@ -17,7 +17,11 @@ Two separate feeds. They must not be merged or treated as the same instrument.
 - [Dukascopy format and source notes](datasets/dukascopy-xauusd/README.md)
 - [Dukascopy preview — 1,000 ticks only](datasets/dukascopy-xauusd/preview_first_1000_ticks.csv)
 
-**The previews are not the complete datasets.** Bulk compressed CSV files will be distributed as release attachments rather than multi-gigabyte Git commits. They have not yet been uploaded.
+**The previews are not the complete datasets.** The complete Bybit export has now been split into 20 independently usable ZIP parts, all below 90 MiB, with all 229 daily files and 110,694,329 native events verified. The parts have been delivered in the Replit Library. GitHub release-attachment upload is still pending authorization; no bulk ZIP files have yet been uploaded to GitHub.
+
+- [Bybit ZIP part index, sizes, dates and checksums](datasets/bybit-xauusdt/parts/part-index.json)
+- [How to use the 20 parts](datasets/bybit-xauusdt/parts/README.md)
+- [Part checksums](datasets/bybit-xauusdt/parts/SHA256SUMS)
 
 The verified Bybit ZIP is 1,741,052,298 bytes. SHA-256:
 `2b27eef545953682b11ab4a4a4d1a7b058d8047042eb3b688843b6ed2d3e6578`
