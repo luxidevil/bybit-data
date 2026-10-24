@@ -5,28 +5,46 @@ Two separate feeds. They must not be merged or treated as the same instrument.
 
 | Dataset | Range | Native detail | Status |
 |---|---|---|---|
-| Bybit XAUUSDT linear perpetual | Archive dates 2026-03-09–2026-10-23 | Every depth-200 archive event; nominal 100 ms | 229/229 archives converted; 110,694,329 rows. Full release upload pending. |
-| Dukascopy XAUUSD spot gold | Requested 2016-10-24 00:00 UTC to 2026-10-24 00:00 UTC (exclusive) | Every original bid/ask tick; no sampling | Ten-year download and coverage audit in progress. |
+| Bybit XAUUSDT linear perpetual | Archive dates 2026-03-09–2026-10-23 | Every depth-200 archive event; nominal 100 ms | COMPLETE: all 229 daily data files uploaded; 110,694,329 original records. |
+| Dukascopy XAUUSD spot gold | Requested 2016-10-24 00:00 UTC to 2026-10-24 00:00 UTC (exclusive) | Every original bid/ask tick; no sampling | Ten-year download and coverage audit still in progress. Only a preview is uploaded. |
 
-## Files currently in this repository
+## Download the COMPLETE Bybit bid/ask data
 
-- [Bybit format and source notes](datasets/bybit-xauusdt/README.md)
-- [Bybit complete coverage manifest](datasets/bybit-xauusdt/manifest.json)
-- [Bybit daily file index](datasets/bybit-xauusdt/daily-file-index.csv)
-- [Bybit preview — 1,000 quotes only](datasets/bybit-xauusdt/preview_first_1000_quotes.csv)
+**The complete Bybit dataset is now stored in this repository—not just previews or download instructions.**
+
+- [Open all 229 daily CSV.gz data files and their metadata](datasets/bybit-xauusdt/daily/)
+- [Daily file index with row counts and checksums](datasets/bybit-xauusdt/daily-file-index.csv)
+- [Complete coverage and quality manifest](datasets/bybit-xauusdt/manifest.json)
+- [SHA-256 checksums for the complete export](datasets/bybit-xauusdt/SHA256SUMS)
+- [CSV columns, source documentation and Python reading example](datasets/bybit-xauusdt/README.md)
+
+Each daily `.csv.gz` is a losslessly compressed CSV with the original timestamps, best bid and ask, sizes, spread and source update identifiers. No resampling was applied. The smallest historical detail available in these archives is the native depth-200 stream (nominal **100 ms**, with variable actual intervals), not the live-only 10 ms feed.
+
+### Download all days
+
+The compressed daily CSV files total **1,740,263,138 bytes (about 1.74 GB)**. A full download or clone is correspondingly large. To download individual days, open the daily folder above and use the file's raw/download link.
+
+```bash
+git clone --depth 1 https://github.com/luxidevil/bybit-data.git
+cd bybit-data/datasets/bybit-xauusdt
+sha256sum -c SHA256SUMS
+```
+
+The `.gz` files can be opened directly by Python gzip/pandas or decompressed with `gunzip`. The uploaded daily files are byte-for-byte identical to the verified local export.
+
+### Coverage notes
+
+- First two-sided quote: **2026-03-09T02:41:07.799Z**. There is no Bybit XAUUSDT history for 1–8 March in this source.
+- Last source event: **2026-10-24T00:00:01.992Z**. Day-labelled archives can contain boundary messages beyond midnight and can overlap.
+- All 229 listed daily archives are included. This does not prove that the upstream feed never had an outage.
+- Empty and one-sided initial books are retained and flagged; missing quotes are not fabricated.
+- The [20 ZIP-part indexes](datasets/bybit-xauusdt/parts/) describe the separately supplied Replit Library ZIP downloads. On GitHub, the full data is supplied as daily CSV.gz files instead of release attachments.
+
+## Previews and the separate ten-year feed
+
+- [Bybit preview—1,000 quotes only](datasets/bybit-xauusdt/preview_first_1000_quotes.csv)
 - [Dukascopy format and source notes](datasets/dukascopy-xauusd/README.md)
-- [Dukascopy preview — 1,000 ticks only](datasets/dukascopy-xauusd/preview_first_1000_ticks.csv)
+- [Dukascopy preview—1,000 ticks only](datasets/dukascopy-xauusd/preview_first_1000_ticks.csv)
 
-**The previews are not the complete datasets.** The complete Bybit export has now been split into 20 independently usable ZIP parts, all below 90 MiB, with all 229 daily files and 110,694,329 native events verified. The parts have been delivered in the Replit Library. GitHub release-attachment upload is still pending authorization; no bulk ZIP files have yet been uploaded to GitHub.
-
-- [Bybit ZIP part index, sizes, dates and checksums](datasets/bybit-xauusdt/parts/part-index.json)
-- [How to use the 20 parts](datasets/bybit-xauusdt/parts/README.md)
-- [Part checksums](datasets/bybit-xauusdt/parts/SHA256SUMS)
-
-The verified Bybit ZIP is 1,741,052,298 bytes. SHA-256:
-`2b27eef545953682b11ab4a4a4d1a7b058d8047042eb3b688843b6ed2d3e6578`
-
-An archive may include boundary messages just beyond its date: the final Bybit event is 2026-10-24T00:00:01.992Z. Empty or one-sided initial books are flagged; quotes are not fabricated. Missing archive dates and missing feed events are different checks.
-
-The older file under data/raw/bybit/xauusdt_1m.csv is a legacy candle sample, not bid/ask data.
+The older file under `data/raw/bybit/xauusdt_1m.csv` is a legacy candle sample, not bid/ask data. Neither preview should be confused with a complete dataset.
 <!-- gold-data-status:end -->
