@@ -1,85 +1,65 @@
-# Dukascopy XAUUSD — native bid/ask ticks
+# Dukascopy XAUUSD — native bid/ask tick history
 
-This is **Dukascopy spot gold quoted in USD**, not the Bybit XAUUSDT perpetual.
-The two datasets are intentionally kept in separate directories and files.
+**The full downloaded dataset is uploaded here: 528,248,304 original ticks across 3,652 UTC days.**
+Range: **2016-10-24 00:00 UTC inclusive to 2026-10-24 00:00 UTC exclusive**.
+This is **spot gold quoted in USD**, separate from Bybit XAUUSDT linear perpetual data.
 
-The requested ten-year window is **2016-10-24 00:00:00 UTC inclusive through
-2026-10-24 00:00:00 UTC exclusive**. This includes the final complete UTC day
-before the request, October 23, 2026.
+## Which files contain the actual data?
 
-## Source and resolution
+- **[Download all 358 data ZIP chunks, or choose dates](DOWNLOADS.md)**
+- [Browse the chunks folder](chunks/)
+- [Find a specific day and its enclosing ZIP](daily-file-index.csv)
+- [Machine-readable chunk index](chunk-index.json)
+- [ZIP checksums](chunks/SHA256SUMS)
 
-Public hourly source pattern:
+All 358 data ZIPs together contain the full export, about **6.16 GB**.
+Each ZIP is independent and **under 22 MiB**, small enough for this repository's API upload path.
+This repository also has approximately 1.74 GB of separate Bybit data; a full repository clone is roughly 7.9 GB.
+Use individual ZIPs to download only the date ranges you need.
+The files are repository contents, not release attachments.
 
-```
-https://datafeed.dukascopy.com/datafeed/XAUUSD/YYYY/MM/DD/HHh_ticks.bi5
-```
+Extract the data ZIPs into the same directory. Their `daily/` folders contain:
 
-Source months are zero-based (`00` = January). Each LZMA-compressed file contains
-20-byte big-endian records: `uint32 offset_ms`, `uint32 ask`, `uint32 bid`,
-`float32 ask_volume`, `float32 bid_volume`.
+- `YYYY-MM-DD_XAUUSD_dukascopy_ticks.csv.gz` — actual bid/ask ticks.
+- `YYYY-MM-DD_metadata.json` — hourly source audit and file hashes.
 
-**For this hourly HTTP format, offsets are measured from the start of the
-hour.** Do not apply the newer daily S3 format's start-of-day convention here.
+Each ZIP also includes its own `metadata/*.manifest.json`.
+CSV.gz bytes are unchanged from the verified source export. Read them with gzip-aware tools or decompress them.
+From the downloaded `chunks/` directory, verify ZIPs with `sha256sum -c SHA256SUMS`.
+The checksum list also includes the separate coverage-metadata ZIP.
 
-Every source record is retained, including repeated prices, repeated timestamps,
-and any source timestamp regressions. No candles, interval sampling, deduplication,
-or invented quotes are used. Millisecond timestamps do not imply a quote every
-millisecond. Sampled source files in 2016, 2021, and 2026 contained variable tick
-intervals, with a smallest positive interval of 50 ms in those samples.
+## Native detail and columns
 
-Prices use the XAUUSD scale **1000**, so integer `1265239` means `1265.239 USD`.
-The scale is instrument-specific, not the default forex factor of 100,000.
-
-References:
-
-- [Dukascopy format documentation](https://www.dukascopy.com/wiki/en/development/data-export/)
-- [XAUUSD history availability](https://www.dukascopy-node.app/instrument/xauusd)
-- [Independent XAUUSD price-scale reference](https://pypi.org/project/tick-vault/)
-
-## CSV columns
-
-| Column | Meaning |
-|---|---|
-| `timestamp_ms` | Original tick timestamp as UTC Unix milliseconds |
-| `bid_price` | Bid in USD, exact three-decimal source scaling |
-| `ask_price` | Ask in USD, exact three-decimal source scaling |
-| `bid_volume_native` | Original source bid volume; no unit conversion |
-| `ask_volume_native` | Original source ask volume; no unit conversion |
-| `spread` | Exact ask minus bid in USD |
-| `tick_index_in_hour` | Zero-based source-record position, retaining duplicates |
-| `quote_status` | `ok`, `locked`, `crossed`, or `zero_price` |
-
-Volumes retain the decoded float32 values, represented without precision loss.
-Do not treat them as Bybit order-book quantities or assume cross-feed units match.
-
-## Coverage and integrity
-
-The downloader checks all 24 hours of every requested date, including weekends.
-Each daily sidecar audits all hourly requests, source URLs, response states,
-byte counts and SHA-256 checksums. A zero-byte or compressed-empty source file
-produces no quotes. HTTP 404/410 is recorded as `not_found`, not silently treated
-as proof of a market closure. Failed requests are reported separately.
-
-`download_processing_complete` means the requested traversal finished without
-unresolved processing errors. It is **not** a guarantee that the provider's own
-archive never lost a quote. Consult the hour-level audit for absent data.
-No missing period is filled with fabricated records.
-
-Downloads use a shared request budget, bounded concurrency and retries, and
-global cooldown/reduced request rates after HTTP 429. A restart verifies and
-reuses completed days rather than starting over.
-
-## Reproduce
-
-```bash
-uv sync
-uv run python scripts/download_dukascopy_ticks.py \
-  --start 2016-10-24 --end 2026-10-24
+```csv
+timestamp_ms,bid_price,ask_price,bid_volume_native,ask_volume_native,spread,tick_index_in_hour,quote_status
 ```
 
-Output lives in `generated-artifacts/dukascopy-xauusd-ticks/`, separate from
-`generated-artifacts/bybit-bid-ask/`. Large generated datasets are excluded from
-Git history; distribution archives belong in GitHub release assets, with
-checksums and source attribution. Source data remains subject to the provider's
-terms; no new license over the source quotes is asserted.
+Every original provider tick is retained, with millisecond UTC timestamps. There is no resampling,
+candle substitution, interpolation or deduplication. Tick intervals vary; millisecond timestamp precision
+does not mean a fixed 1 ms feed. Prices preserve the source integers divided by 1,000.
+Volume fields retain the provider's native float32 values and units; they are not Bybit order-book sizes.
+
+```python
+import csv
+import gzip
+
+with gzip.open("daily/2016-10-24_XAUUSD_dukascopy_ticks.csv.gz", "rt", newline="") as file:
+    reader = csv.DictReader(file)
+    first_tick = next(reader)
+    print(first_tick["timestamp_ms"], first_tick["bid_price"], first_tick["ask_price"])
+```
+
+## Coverage and limitations
+
+- **3,652/3,652 calendar days and 87,648/87,648 source hours processed; zero unresolved download failures.**
+- **59,164 hours contained ticks; 28,484 returned empty responses.**
+- First tick: `2016-10-24T00:00:00.244Z`.
+- Last tick: `2026-10-23T20:59:58.337Z`.
+- Empty source hours are recorded explicitly, not filled with invented quotes.
+- Complete processing does **not** prove the provider never lost observations. Upstream completeness is not guaranteed.
+- [Full coverage manifest](manifest.json) and [all source-hour audit records](chunks/source-hour-audit.csv.gz).
+- The coverage-metadata ZIP and `preview_first_1000_ticks.csv` are **not** substitutes for the data ZIPs.
+- Do not splice this feed into Bybit data or label it Bybit XAUUSDT.
+
+Source: [Dukascopy data export documentation](https://www.dukascopy.com/wiki/en/development/data-export/).
+The legacy hourly `.bi5` source uses zero-based URL months and millisecond offsets from the start of each hour.

@@ -1,0 +1,3240 @@
+{
+  "source": "Dukascopy XAUUSD",
+  "download_processing_complete": true,
+  "provider_record_completeness_guaranteed": false,
+  "max_asset_bytes_exclusive": 23068672,
+  "requested_start_utc_inclusive": "2016-10-24T00:00:00Z",
+  "requested_end_utc_exclusive": "2026-10-24T00:00:00Z",
+  "records": 528248304,
+  "days": 3652,
+  "assets": [
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2016-10-part-01.zip",
+      "bytes": 8070584,
+      "sha256": "e679dcd0284721418a2fbadd980bf9a425755770c39cd4346daf190e4fc7682c",
+      "first_date_utc": "2016-10-24",
+      "last_date_utc": "2016-10-31",
+      "days": 8,
+      "records": 742913
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2016-11-part-01.zip",
+      "bytes": 20362357,
+      "sha256": "2814ed98dbf56abdad40731e4470c4084ee60a7e4c053c42210350bfe214186e",
+      "first_date_utc": "2016-11-01",
+      "last_date_utc": "2016-11-10",
+      "days": 10,
+      "records": 1779635
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2016-11-part-02.zip",
+      "bytes": 20051183,
+      "sha256": "89ed0db01be10968f283329c9d3a5ffb25a589866b54d4dbe3a118edc9332343",
+      "first_date_utc": "2016-11-11",
+      "last_date_utc": "2016-11-22",
+      "days": 12,
+      "records": 1768280
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2016-11-part-03.zip",
+      "bytes": 11878542,
+      "sha256": "b07de70eee2ee576d0398b32e909ad953ab8521216e408e511386fbcc50dd439",
+      "first_date_utc": "2016-11-23",
+      "last_date_utc": "2016-11-30",
+      "days": 8,
+      "records": 1069719
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2016-12-part-01.zip",
+      "bytes": 19608651,
+      "sha256": "69782f4afddc27bc33b11c945bfd067f687ee9999cf27fcfa77ffc1c8a40223a",
+      "first_date_utc": "2016-12-01",
+      "last_date_utc": "2016-12-14",
+      "days": 14,
+      "records": 1806973
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2016-12-part-02.zip",
+      "bytes": 16085071,
+      "sha256": "d4c36d7b718c82b48886a9d181ff704a9e7248b14416c003c4414fb64f6728b3",
+      "first_date_utc": "2016-12-15",
+      "last_date_utc": "2016-12-31",
+      "days": 17,
+      "records": 1489760
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2017-01-part-01.zip",
+      "bytes": 19743769,
+      "sha256": "121075d1ff865043c9138e5a883ac3b6b1ba7e72fb71fdff1c2c5c84ad6b35d1",
+      "first_date_utc": "2017-01-01",
+      "last_date_utc": "2017-01-16",
+      "days": 16,
+      "records": 1829678
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2017-01-part-02.zip",
+      "bytes": 20699357,
+      "sha256": "4bee1ee89d96ecf732ba16adb3563a9a0fc228277257a83e2dd1c9cb84a58665",
+      "first_date_utc": "2017-01-17",
+      "last_date_utc": "2017-01-30",
+      "days": 14,
+      "records": 1938910
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2017-01-part-03.zip",
+      "bytes": 2358546,
+      "sha256": "9da91c5a6b3761b8613d1b0b6602ad76f4d2ad98610aefb133f21301fb29dc9b",
+      "first_date_utc": "2017-01-31",
+      "last_date_utc": "2017-01-31",
+      "days": 1,
+      "records": 222547
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2017-02-part-01.zip",
+      "bytes": 20058371,
+      "sha256": "70b059ebb5c8d3730d34e16632167e394cecca7e73479c882d0ef342dbb91d44",
+      "first_date_utc": "2017-02-01",
+      "last_date_utc": "2017-02-13",
+      "days": 13,
+      "records": 1939056
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2017-02-part-02.zip",
+      "bytes": 21129722,
+      "sha256": "e484796aa6dc9b94afd4cc39bedd6e384fd97720bac51ef2db9be3ce5e5b4e59",
+      "first_date_utc": "2017-02-14",
+      "last_date_utc": "2017-02-28",
+      "days": 15,
+      "records": 2079142
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2017-03-part-01.zip",
+      "bytes": 20399632,
+      "sha256": "b7ba37a3b8cdd605f88991d71f59ee09ecb11d88a4078c6a5ba4d5b5a9bf34b2",
+      "first_date_utc": "2017-03-01",
+      "last_date_utc": "2017-03-14",
+      "days": 14,
+      "records": 1996729
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2017-03-part-02.zip",
+      "bytes": 21627486,
+      "sha256": "6fcec3c900a94574a610f8be56fa01f4815789c87445047af896ec34787d2cf7",
+      "first_date_utc": "2017-03-15",
+      "last_date_utc": "2017-03-30",
+      "days": 16,
+      "records": 2098507
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2017-03-part-03.zip",
+      "bytes": 1465224,
+      "sha256": "81872c0ac78a551b14826e108de8464c40904c5be41191b483ff57e7383fcad4",
+      "first_date_utc": "2017-03-31",
+      "last_date_utc": "2017-03-31",
+      "days": 1,
+      "records": 143111
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2017-04-part-01.zip",
+      "bytes": 20044116,
+      "sha256": "e98def898906983891f16acb97f9904cdf154db33c2099efa0e2d97b8214ac70",
+      "first_date_utc": "2017-04-01",
+      "last_date_utc": "2017-04-18",
+      "days": 18,
+      "records": 1896692
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2017-04-part-02.zip",
+      "bytes": 15320902,
+      "sha256": "921053da636486583204be22d86e07797bef83f8e88fb1db0b8d74b652698e69",
+      "first_date_utc": "2017-04-19",
+      "last_date_utc": "2017-04-30",
+      "days": 12,
+      "records": 1405701
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2017-05-part-01.zip",
+      "bytes": 19795117,
+      "sha256": "2f4e145ecf103070f2fc1db31e2f305ae20288779b1751c17c37fe2a0e3083cd",
+      "first_date_utc": "2017-05-01",
+      "last_date_utc": "2017-05-16",
+      "days": 16,
+      "records": 1810573
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2017-05-part-02.zip",
+      "bytes": 19863888,
+      "sha256": "86a45521462c2f1803f747d9c15b5066228a964068edbc3182ef8f7d9770b26c",
+      "first_date_utc": "2017-05-17",
+      "last_date_utc": "2017-05-31",
+      "days": 15,
+      "records": 1785305
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2017-06-part-01.zip",
+      "bytes": 20517272,
+      "sha256": "fb3e389284d14e35a6927fe97f0a88f3f1031010367081151fadf4dafb2bb949",
+      "first_date_utc": "2017-06-01",
+      "last_date_utc": "2017-06-18",
+      "days": 18,
+      "records": 1888879
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2017-06-part-02.zip",
+      "bytes": 15583272,
+      "sha256": "aff4dfc342a8ddfc28041820230f8b45c022e19300fd3bcdcbb86e73557ca985",
+      "first_date_utc": "2017-06-19",
+      "last_date_utc": "2017-06-30",
+      "days": 12,
+      "records": 1445104
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2017-07-part-01.zip",
+      "bytes": 20975535,
+      "sha256": "0f4c7ccb597844becdbaa0c3d0866a43618010b6857e9f18b04a4b111c0d0876",
+      "first_date_utc": "2017-07-01",
+      "last_date_utc": "2017-07-20",
+      "days": 20,
+      "records": 1928161
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2017-07-part-02.zip",
+      "bytes": 12386612,
+      "sha256": "b20a61fffeda63b2ac43348d5a4ac3cd754238599671053a44bea7e2f5f2a05d",
+      "first_date_utc": "2017-07-21",
+      "last_date_utc": "2017-07-31",
+      "days": 11,
+      "records": 1148825
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2017-08-part-01.zip",
+      "bytes": 21217343,
+      "sha256": "92382f5fae29e4137cb6aa5ccd5611af412e011c21b19f1b0b5718ed8962f852",
+      "first_date_utc": "2017-08-01",
+      "last_date_utc": "2017-08-16",
+      "days": 16,
+      "records": 1962613
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2017-08-part-02.zip",
+      "bytes": 20681761,
+      "sha256": "aeebfebe8ade0b21407d987a9624b8c12710353364b274c760d5df9dfa8d0629",
+      "first_date_utc": "2017-08-17",
+      "last_date_utc": "2017-08-31",
+      "days": 15,
+      "records": 1871109
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2017-09-part-01.zip",
+      "bytes": 20983501,
+      "sha256": "6e3c2c6d0c4df4206445ac653521debf22a37ed37fcaa28b38d0e0eea20bf008",
+      "first_date_utc": "2017-09-01",
+      "last_date_utc": "2017-09-17",
+      "days": 17,
+      "records": 1887123
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2017-09-part-02.zip",
+      "bytes": 21049918,
+      "sha256": "0494effafd2c6e1575d6191022e56f84ca56a6c54ee6d0a7416d07c3d77580cc",
+      "first_date_utc": "2017-09-18",
+      "last_date_utc": "2017-09-28",
+      "days": 11,
+      "records": 1816929
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2017-09-part-03.zip",
+      "bytes": 2257411,
+      "sha256": "b76a9da39f260615050fbe38cb447959c230ed13a979541856dd481b70d97e73",
+      "first_date_utc": "2017-09-29",
+      "last_date_utc": "2017-09-30",
+      "days": 2,
+      "records": 191144
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2017-10-part-01.zip",
+      "bytes": 20637354,
+      "sha256": "306f87ba347f3722d8f899593c9bd6c547c869d87a1ee4e983eef24b42969413",
+      "first_date_utc": "2017-10-01",
+      "last_date_utc": "2017-10-15",
+      "days": 15,
+      "records": 1816816
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2017-10-part-02.zip",
+      "bytes": 20375783,
+      "sha256": "c442cb8da35db2ac7735b68edddf69fd505465205c7abf7e19a070042329d88a",
+      "first_date_utc": "2017-10-16",
+      "last_date_utc": "2017-10-26",
+      "days": 11,
+      "records": 1806233
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2017-10-part-03.zip",
+      "bytes": 6298402,
+      "sha256": "19854f4725c18a3e5c0ec38777dde461ce7886754efa471b7c71e9e16c40f8d3",
+      "first_date_utc": "2017-10-27",
+      "last_date_utc": "2017-10-31",
+      "days": 5,
+      "records": 565395
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2017-11-part-01.zip",
+      "bytes": 21108686,
+      "sha256": "ede42be7162b9858733faf3b21245e2235de4b0b19f6ccef7407efbe5babcab9",
+      "first_date_utc": "2017-11-01",
+      "last_date_utc": "2017-11-13",
+      "days": 13,
+      "records": 1872615
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2017-11-part-02.zip",
+      "bytes": 19860054,
+      "sha256": "4e131cd775b956b4498257e8be179082edc1fcb3c4dfaebef68b9c6bac25cedf",
+      "first_date_utc": "2017-11-14",
+      "last_date_utc": "2017-11-26",
+      "days": 13,
+      "records": 1758863
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2017-11-part-03.zip",
+      "bytes": 9500049,
+      "sha256": "8d9aee71ad1660371b22cf12a1fd84a379a4c7154cd14aaacff32bb4509f5cff",
+      "first_date_utc": "2017-11-27",
+      "last_date_utc": "2017-11-30",
+      "days": 4,
+      "records": 831082
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2017-12-part-01.zip",
+      "bytes": 21593975,
+      "sha256": "7c915185ee22ef2a7a4e37a8b33b310730f31029eb144daa389f6781695026be",
+      "first_date_utc": "2017-12-01",
+      "last_date_utc": "2017-12-13",
+      "days": 13,
+      "records": 1930846
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2017-12-part-02.zip",
+      "bytes": 19889169,
+      "sha256": "2289e85f3ddcfafbc5d9ba9ef2e3af24d83853626187558ba375d2e2ef241d21",
+      "first_date_utc": "2017-12-14",
+      "last_date_utc": "2017-12-28",
+      "days": 15,
+      "records": 1794473
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2017-12-part-03.zip",
+      "bytes": 1963006,
+      "sha256": "dacfb4f45fe88b1b44fa45959c19ed5754076b6c11062638b2cffdd5949014d3",
+      "first_date_utc": "2017-12-29",
+      "last_date_utc": "2017-12-31",
+      "days": 3,
+      "records": 174849
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2018-01-part-01.zip",
+      "bytes": 21028779,
+      "sha256": "7a3018da2725919a97657c0902fa18d8adbbcbc7bf08189d21f877204ec971f5",
+      "first_date_utc": "2018-01-01",
+      "last_date_utc": "2018-01-14",
+      "days": 14,
+      "records": 1833062
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2018-01-part-02.zip",
+      "bytes": 19114099,
+      "sha256": "0f4d71a7a00c4efabe45740b34761a56aed2c54ed411af20ff0f28ddb5a7a2cc",
+      "first_date_utc": "2018-01-15",
+      "last_date_utc": "2018-01-24",
+      "days": 10,
+      "records": 1649239
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2018-01-part-03.zip",
+      "bytes": 13828173,
+      "sha256": "0557ee73b6cf36d2599bad5bcba3472ca210fd79f853c637388249574af87c37",
+      "first_date_utc": "2018-01-25",
+      "last_date_utc": "2018-01-31",
+      "days": 7,
+      "records": 1161601
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2018-02-part-01.zip",
+      "bytes": 19563649,
+      "sha256": "01128f6cfe44748ccc57cbd441d851947c249f0afd8f686a714d3ef53c59f8b2",
+      "first_date_utc": "2018-02-01",
+      "last_date_utc": "2018-02-08",
+      "days": 8,
+      "records": 1617335
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2018-02-part-02.zip",
+      "bytes": 19316106,
+      "sha256": "0559ff9530e994aaa5d88d6b29d090e6ce4c15fa88247a99de8d065dc9cce0f5",
+      "first_date_utc": "2018-02-09",
+      "last_date_utc": "2018-02-19",
+      "days": 11,
+      "records": 1635509
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2018-02-part-03.zip",
+      "bytes": 18824668,
+      "sha256": "062209fb79ad73b83897fc18c652cb2074651bc558f41c17c14134c9d06dc1ee",
+      "first_date_utc": "2018-02-20",
+      "last_date_utc": "2018-02-28",
+      "days": 9,
+      "records": 1573196
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2018-03-part-01.zip",
+      "bytes": 21462118,
+      "sha256": "e27b962c67e9a150bf0f720424034ef1fec2cf701f229ca2f06f31ee651c7533",
+      "first_date_utc": "2018-03-01",
+      "last_date_utc": "2018-03-11",
+      "days": 11,
+      "records": 1826224
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2018-03-part-02.zip",
+      "bytes": 20921957,
+      "sha256": "5aedb7d347a2658baef9b1d1ed88373dd28199c8d99252d0ee7b407fed692765",
+      "first_date_utc": "2018-03-12",
+      "last_date_utc": "2018-03-28",
+      "days": 17,
+      "records": 1759186
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2018-03-part-03.zip",
+      "bytes": 1331222,
+      "sha256": "c5ed92c46cfbdb70709fa428d571097d921050eb0fddd2c6c568025ca2b130f3",
+      "first_date_utc": "2018-03-29",
+      "last_date_utc": "2018-03-31",
+      "days": 3,
+      "records": 110434
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2018-04-part-01.zip",
+      "bytes": 21087790,
+      "sha256": "76f966e78ece07ce88e03c264ad26027566407f2cb7a814e85ffc23fa1150488",
+      "first_date_utc": "2018-04-01",
+      "last_date_utc": "2018-04-18",
+      "days": 18,
+      "records": 1749489
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2018-04-part-02.zip",
+      "bytes": 10337206,
+      "sha256": "61e66d7a5e008845edb8722e0628d021e1b2d58dc88099271727082a75e092bc",
+      "first_date_utc": "2018-04-19",
+      "last_date_utc": "2018-04-30",
+      "days": 12,
+      "records": 858170
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2018-05-part-01.zip",
+      "bytes": 21659067,
+      "sha256": "8156951e87c57aa06a2a21a5fd6edb951d1cbec5c56b4d805697cb55189d65f5",
+      "first_date_utc": "2018-05-01",
+      "last_date_utc": "2018-05-23",
+      "days": 23,
+      "records": 1786464
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2018-05-part-02.zip",
+      "bytes": 8780671,
+      "sha256": "b215a6d3e9b5a23af84c4f04289278975f0c2a248e521a529ac9634eb6055ea0",
+      "first_date_utc": "2018-05-24",
+      "last_date_utc": "2018-05-31",
+      "days": 8,
+      "records": 721035
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2018-06-part-01.zip",
+      "bytes": 20764345,
+      "sha256": "0392792bcf1e32c991413b38fc7d3501eeef35454c42c4814129c6b5060c1f1f",
+      "first_date_utc": "2018-06-01",
+      "last_date_utc": "2018-06-25",
+      "days": 25,
+      "records": 1745172
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2018-06-part-02.zip",
+      "bytes": 6442813,
+      "sha256": "1853c69b6746c7076f031a9256620189b2db18df7d6b3a4505a694528c4ab8d6",
+      "first_date_utc": "2018-06-26",
+      "last_date_utc": "2018-06-30",
+      "days": 5,
+      "records": 581627
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2018-07-part-01.zip",
+      "bytes": 20198368,
+      "sha256": "b5b8b8e8cd9462b936ddf081d0fa06ad086cdfbe18b9dc0a6d8c7c142a028795",
+      "first_date_utc": "2018-07-01",
+      "last_date_utc": "2018-07-19",
+      "days": 19,
+      "records": 1792936
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2018-07-part-02.zip",
+      "bytes": 12151568,
+      "sha256": "5fe2b616a0100c1598a6b5c8c8bfa0d9e69fd59c4312eb9efae231b3181b9ae1",
+      "first_date_utc": "2018-07-20",
+      "last_date_utc": "2018-07-31",
+      "days": 12,
+      "records": 1062811
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2018-08-part-01.zip",
+      "bytes": 20465090,
+      "sha256": "7c5493b15da8379d6e5ff4d278611e415c04fcce83992771ca420908912e5805",
+      "first_date_utc": "2018-08-01",
+      "last_date_utc": "2018-08-20",
+      "days": 20,
+      "records": 1824072
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2018-08-part-02.zip",
+      "bytes": 12528605,
+      "sha256": "1e9886e9f25633790b3f274f95c0ebc1b801d0fb3216c2677b297a6f0ce207f7",
+      "first_date_utc": "2018-08-21",
+      "last_date_utc": "2018-08-31",
+      "days": 11,
+      "records": 1122858
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2018-09-part-01.zip",
+      "bytes": 21649763,
+      "sha256": "3c01687118eef1e8bd7d4e985889fc279d28b614c4eeabb735e282200c27f53a",
+      "first_date_utc": "2018-09-01",
+      "last_date_utc": "2018-09-24",
+      "days": 24,
+      "records": 1937798
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2018-09-part-02.zip",
+      "bytes": 5198683,
+      "sha256": "474f2b62c866155e7026da5f9bbc39fe3eb4e3ff20811634326ebb11770f9468",
+      "first_date_utc": "2018-09-25",
+      "last_date_utc": "2018-09-30",
+      "days": 6,
+      "records": 476089
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2018-10-part-01.zip",
+      "bytes": 21750731,
+      "sha256": "c9a18d06eeeb24f608297d804855a79c99500cbe23049eb4cfc3c3ea5a7e29f7",
+      "first_date_utc": "2018-10-01",
+      "last_date_utc": "2018-10-18",
+      "days": 18,
+      "records": 1918961
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2018-10-part-02.zip",
+      "bytes": 11975041,
+      "sha256": "42c6f3f49ab26c54b83cd2ab5b21b6188ff10e909f365e553b545bfa24747063",
+      "first_date_utc": "2018-10-19",
+      "last_date_utc": "2018-10-31",
+      "days": 13,
+      "records": 1037530
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2018-11-part-01.zip",
+      "bytes": 21290240,
+      "sha256": "a4ded9e182466db2c62ce622e3871ff046a2048272f67d1e009a3914aa829ecd",
+      "first_date_utc": "2018-11-01",
+      "last_date_utc": "2018-11-28",
+      "days": 28,
+      "records": 1994158
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2018-11-part-02.zip",
+      "bytes": 1791521,
+      "sha256": "0409d7191c7e1751a9a98c998ba0d5ff5f5e733f6597c89d123536045fcf6df8",
+      "first_date_utc": "2018-11-29",
+      "last_date_utc": "2018-11-30",
+      "days": 2,
+      "records": 165673
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2018-12-part-01.zip",
+      "bytes": 20960355,
+      "sha256": "7a4f07f0c3486232f30873650b8cc9b789e3d99a8c1d2a2ce7fe178f296e1757",
+      "first_date_utc": "2018-12-01",
+      "last_date_utc": "2018-12-31",
+      "days": 31,
+      "records": 1979716
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2019-01-part-01.zip",
+      "bytes": 20823087,
+      "sha256": "c618584f01f62c98a44dafae8572015e40f8cd0793de27e93a230bdc4510b01a",
+      "first_date_utc": "2019-01-01",
+      "last_date_utc": "2019-01-29",
+      "days": 29,
+      "records": 1929470
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2019-01-part-02.zip",
+      "bytes": 2091381,
+      "sha256": "332a5c5894d220b665b0f94fde9ac60f42c16a041c794d299be539553078762d",
+      "first_date_utc": "2019-01-30",
+      "last_date_utc": "2019-01-31",
+      "days": 2,
+      "records": 189150
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2019-02-part-01.zip",
+      "bytes": 18718128,
+      "sha256": "183d7c1f918dcdfbb329417b36ae97b9e41a6b93265fd0e8ff656eb08222fa3f",
+      "first_date_utc": "2019-02-01",
+      "last_date_utc": "2019-02-28",
+      "days": 28,
+      "records": 1739405
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2019-03-part-01.zip",
+      "bytes": 20778678,
+      "sha256": "91719bc5eb2eed22687485aa4e393da6822d0ea3d210c24e55756cc962639ab6",
+      "first_date_utc": "2019-03-01",
+      "last_date_utc": "2019-03-26",
+      "days": 26,
+      "records": 1977069
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2019-03-part-02.zip",
+      "bytes": 4073370,
+      "sha256": "ca9e6c6468c8b5e59c3291e3667f012ab45db62c47673db43beea9946e6a71e4",
+      "first_date_utc": "2019-03-27",
+      "last_date_utc": "2019-03-31",
+      "days": 5,
+      "records": 378546
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2019-04-part-01.zip",
+      "bytes": 20868405,
+      "sha256": "d6435d57d579dcfa5d7b6de20da0809ee7218dfcc91edebae05ddd9f26833ddd",
+      "first_date_utc": "2019-04-01",
+      "last_date_utc": "2019-04-30",
+      "days": 30,
+      "records": 1948157
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2019-05-part-01.zip",
+      "bytes": 20685570,
+      "sha256": "5e808551cbaf9a71b70f338b63a32a43b4e7f57ea283fe26437ca9a9fe9c7804",
+      "first_date_utc": "2019-05-01",
+      "last_date_utc": "2019-05-23",
+      "days": 23,
+      "records": 1934113
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2019-05-part-02.zip",
+      "bytes": 7281467,
+      "sha256": "04567bea8945b521b2e079c01b3ba8964b2cfd94d298c7382a75a657ef917cd1",
+      "first_date_utc": "2019-05-24",
+      "last_date_utc": "2019-05-31",
+      "days": 8,
+      "records": 681108
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2019-06-part-01.zip",
+      "bytes": 21418212,
+      "sha256": "4a7ce8fe145e0b0709910510e94808628534c25956ff94a053a7529b37eee3f1",
+      "first_date_utc": "2019-06-01",
+      "last_date_utc": "2019-06-19",
+      "days": 19,
+      "records": 1944087
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2019-06-part-02.zip",
+      "bytes": 17741875,
+      "sha256": "e0af9fc7733f10fb407ae316a04b2137d1ada707183960e3e1ce0cb8f92bde53",
+      "first_date_utc": "2019-06-20",
+      "last_date_utc": "2019-06-30",
+      "days": 11,
+      "records": 1564165
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2019-07-part-01.zip",
+      "bytes": 20404571,
+      "sha256": "274009e9576d52bef0a492ca6942c102259e19ad768a392719e36f44603ce828",
+      "first_date_utc": "2019-07-01",
+      "last_date_utc": "2019-07-15",
+      "days": 15,
+      "records": 1810706
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2019-07-part-02.zip",
+      "bytes": 19885063,
+      "sha256": "eebf1e424dfb304bad3a3ff25dcab50819715b54604e491874cacc878f69e1e2",
+      "first_date_utc": "2019-07-16",
+      "last_date_utc": "2019-07-31",
+      "days": 16,
+      "records": 1775515
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2019-08-part-01.zip",
+      "bytes": 21452521,
+      "sha256": "fd74a1c65fec004f39bc49de05295be20c1d9873783b6da9e925d62ba347d0cb",
+      "first_date_utc": "2019-08-01",
+      "last_date_utc": "2019-08-12",
+      "days": 12,
+      "records": 1914875
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2019-08-part-02.zip",
+      "bytes": 19823570,
+      "sha256": "5487d95cd06834b2245ab473e94f34aa56d461e79f33a24bfa82882ada2cbbd1",
+      "first_date_utc": "2019-08-13",
+      "last_date_utc": "2019-08-25",
+      "days": 13,
+      "records": 1770172
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2019-08-part-03.zip",
+      "bytes": 11840056,
+      "sha256": "4be7b8806ba01028aeea77acf4b63cce0ea2c2b06960fe71ad1d14c9ae675970",
+      "first_date_utc": "2019-08-26",
+      "last_date_utc": "2019-08-31",
+      "days": 6,
+      "records": 1049948
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2019-09-part-01.zip",
+      "bytes": 20764817,
+      "sha256": "7baec9c5688081061c3a7074b0c875160be6904685657e6211f6a460e9c4f79b",
+      "first_date_utc": "2019-09-01",
+      "last_date_utc": "2019-09-12",
+      "days": 12,
+      "records": 1832903
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2019-09-part-02.zip",
+      "bytes": 20065785,
+      "sha256": "bd423b5057ed7752d2b993648012c0e5121a407520ae559a4cdd405c0eb641ac",
+      "first_date_utc": "2019-09-13",
+      "last_date_utc": "2019-09-26",
+      "days": 14,
+      "records": 1800197
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2019-09-part-03.zip",
+      "bytes": 4788479,
+      "sha256": "85c8fa33b9bccf3298f5ba4a989ff8692c0405abbc29044bba452a218380effa",
+      "first_date_utc": "2019-09-27",
+      "last_date_utc": "2019-09-30",
+      "days": 4,
+      "records": 427499
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2019-10-part-01.zip",
+      "bytes": 21006738,
+      "sha256": "3a21626bf1b33e81dd96f6eac9924ad5975e24708e14609be9b5d7de3de0cba8",
+      "first_date_utc": "2019-10-01",
+      "last_date_utc": "2019-10-10",
+      "days": 10,
+      "records": 1899997
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2019-10-part-02.zip",
+      "bytes": 20239922,
+      "sha256": "3ff3c099501244f83ef16ab9de942a5848a78eacbee90638061460c1e8088dad",
+      "first_date_utc": "2019-10-11",
+      "last_date_utc": "2019-10-24",
+      "days": 14,
+      "records": 1887003
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2019-10-part-03.zip",
+      "bytes": 8797752,
+      "sha256": "4bc59f54d6d8792c5c71564506246fc8bd4525f1a2fccbc287ca5e413981736a",
+      "first_date_utc": "2019-10-25",
+      "last_date_utc": "2019-10-31",
+      "days": 7,
+      "records": 820249
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2019-11-part-01.zip",
+      "bytes": 21457561,
+      "sha256": "3457296a7df1ef48e9a2ad996055dbbc7172bfea66a1022fa3022cb4c93b57ec",
+      "first_date_utc": "2019-11-01",
+      "last_date_utc": "2019-11-19",
+      "days": 19,
+      "records": 2006421
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2019-11-part-02.zip",
+      "bytes": 10353396,
+      "sha256": "9bec5685ed69596b3ce451909f3ae65e3652200dc6b92648ad1c201cfd84458a",
+      "first_date_utc": "2019-11-20",
+      "last_date_utc": "2019-11-30",
+      "days": 11,
+      "records": 963674
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2019-12-part-01.zip",
+      "bytes": 21499266,
+      "sha256": "066d11c490425a98bc666d02778009b2f0868738a900bfd6fbe00a36578362ab",
+      "first_date_utc": "2019-12-01",
+      "last_date_utc": "2019-12-23",
+      "days": 23,
+      "records": 2022250
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2019-12-part-02.zip",
+      "bytes": 5725198,
+      "sha256": "6e68e5f3ae3540721a70c6d177fd5e335ac080fd30c55df115648ef4fa568f00",
+      "first_date_utc": "2019-12-24",
+      "last_date_utc": "2019-12-31",
+      "days": 8,
+      "records": 547292
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2020-01-part-01.zip",
+      "bytes": 21517984,
+      "sha256": "6916c85073aff377aa85d5abb72e2015a6dbfbab07fcc71d62048ee7d3ff05d6",
+      "first_date_utc": "2020-01-01",
+      "last_date_utc": "2020-01-15",
+      "days": 15,
+      "records": 1980874
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2020-01-part-02.zip",
+      "bytes": 19328261,
+      "sha256": "8ce025e60a1987f4c150fea5e4aba7bcd282d49fd77c7b123b31452e4d432fdc",
+      "first_date_utc": "2020-01-16",
+      "last_date_utc": "2020-01-30",
+      "days": 15,
+      "records": 1805316
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2020-01-part-03.zip",
+      "bytes": 2543958,
+      "sha256": "fa95dbb8aa91519810a13e10678719407b608d307fdfe0e8a01cbd4c56db42e5",
+      "first_date_utc": "2020-01-31",
+      "last_date_utc": "2020-01-31",
+      "days": 1,
+      "records": 234643
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2020-02-part-01.zip",
+      "bytes": 21585341,
+      "sha256": "ff54afe997442fc1d1d7844d6c7c40ac13bf5a9f4ea110e66941486da6d56791",
+      "first_date_utc": "2020-02-01",
+      "last_date_utc": "2020-02-19",
+      "days": 19,
+      "records": 2011268
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2020-02-part-02.zip",
+      "bytes": 19263814,
+      "sha256": "d4598e329c20253e0eb436c47d61985e7a11b20f762b25009ab3a10822dfa262",
+      "first_date_utc": "2020-02-20",
+      "last_date_utc": "2020-02-26",
+      "days": 7,
+      "records": 1717212
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2020-02-part-03.zip",
+      "bytes": 11055615,
+      "sha256": "8fa26d1be465ee22e2a20a6db3830121c0a53b659d17fed823cdcd6f75f6b6ed",
+      "first_date_utc": "2020-02-27",
+      "last_date_utc": "2020-02-29",
+      "days": 3,
+      "records": 929774
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2020-03-part-01.zip",
+      "bytes": 19629263,
+      "sha256": "f9afa0af9d34bead1059d8d51a79bed47be414969e9a7fc391fc24423a0154d7",
+      "first_date_utc": "2020-03-01",
+      "last_date_utc": "2020-03-05",
+      "days": 5,
+      "records": 1688338
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2020-03-part-02.zip",
+      "bytes": 18401668,
+      "sha256": "a223e956b1123a960d196ae1d2ffe9c532932c25be7c724bfbfd42c8985bd887",
+      "first_date_utc": "2020-03-06",
+      "last_date_utc": "2020-03-11",
+      "days": 6,
+      "records": 1586272
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2020-03-part-03.zip",
+      "bytes": 18941425,
+      "sha256": "e8f319c3eb7f4e479d97e82318c00c6080da24f74a750eb8efc57ea9d467635a",
+      "first_date_utc": "2020-03-12",
+      "last_date_utc": "2020-03-17",
+      "days": 6,
+      "records": 1544312
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2020-03-part-04.zip",
+      "bytes": 20973891,
+      "sha256": "516f2d870ba268536796302e50e9d359c6f7c1fe09cfdda3aac882dd022f4eb7",
+      "first_date_utc": "2020-03-18",
+      "last_date_utc": "2020-03-30",
+      "days": 13,
+      "records": 1680170
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2020-03-part-05.zip",
+      "bytes": 1613451,
+      "sha256": "c598fe0f2af716fd431b6fbdeeec21c2effdfc75ae259e3fcd1bfe4b2ce7b6c2",
+      "first_date_utc": "2020-03-31",
+      "last_date_utc": "2020-03-31",
+      "days": 1,
+      "records": 132462
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2020-04-part-01.zip",
+      "bytes": 20085298,
+      "sha256": "f4f6af6dfd65f12415a30759f62ecdd77acff89e2a9cf2c356c8f2cc37794332",
+      "first_date_utc": "2020-04-01",
+      "last_date_utc": "2020-04-16",
+      "days": 16,
+      "records": 1667650
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2020-04-part-02.zip",
+      "bytes": 20283337,
+      "sha256": "d7d0f630bcd540a5f889fc74c31fb31403b9e0cd4154f43b690754839b3003bd",
+      "first_date_utc": "2020-04-17",
+      "last_date_utc": "2020-04-28",
+      "days": 12,
+      "records": 1665684
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2020-04-part-03.zip",
+      "bytes": 4976083,
+      "sha256": "7c318928fda029bfef0a00815e9fe5c57a8e00489662cb217aa4a444f9565ed8",
+      "first_date_utc": "2020-04-29",
+      "last_date_utc": "2020-04-30",
+      "days": 2,
+      "records": 417096
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2020-05-part-01.zip",
+      "bytes": 20486193,
+      "sha256": "af3be9a38ffb6d8affcdd98a7a3611f88600104936fad6500e19268b52b3fcd8",
+      "first_date_utc": "2020-05-01",
+      "last_date_utc": "2020-05-13",
+      "days": 13,
+      "records": 1746126
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2020-05-part-02.zip",
+      "bytes": 21417117,
+      "sha256": "c9614ec457950590b80634e008a884c21bfb8551ec649d2450750b60efd909fa",
+      "first_date_utc": "2020-05-14",
+      "last_date_utc": "2020-05-26",
+      "days": 13,
+      "records": 1849468
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2020-05-part-03.zip",
+      "bytes": 6775250,
+      "sha256": "7ce449460c022092825a8e647d0a1b1c9f2e8e07ebdc1ede9996902e2f5c262d",
+      "first_date_utc": "2020-05-27",
+      "last_date_utc": "2020-05-31",
+      "days": 5,
+      "records": 583819
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2020-06-part-01.zip",
+      "bytes": 19689695,
+      "sha256": "4f6cccb549bd949df261b3ffbbcb59163388a143b6cdd8b3ec3b0fda33b210f4",
+      "first_date_utc": "2020-06-01",
+      "last_date_utc": "2020-06-10",
+      "days": 10,
+      "records": 1690574
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2020-06-part-02.zip",
+      "bytes": 19742987,
+      "sha256": "bcc6dd1f69b23a2fd313632ec1fcbd6effe1e5a3f8579380fc0bf72b8735315d",
+      "first_date_utc": "2020-06-11",
+      "last_date_utc": "2020-06-22",
+      "days": 12,
+      "records": 1695139
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2020-06-part-03.zip",
+      "bytes": 13489486,
+      "sha256": "7f0cd02b7e8ca7a2e1d22fa44c84995ec7040bf6ebdbac7804634fe376903f49",
+      "first_date_utc": "2020-06-23",
+      "last_date_utc": "2020-06-30",
+      "days": 8,
+      "records": 1166431
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2020-07-part-01.zip",
+      "bytes": 20404412,
+      "sha256": "586460206a18297c3ae7a16d7034bba61f504f0dc48babbdbad9a1454e4ebb98",
+      "first_date_utc": "2020-07-01",
+      "last_date_utc": "2020-07-15",
+      "days": 15,
+      "records": 1765004
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2020-07-part-02.zip",
+      "bytes": 20687353,
+      "sha256": "f469ff3e24acf6ae7752582c74323be5f7229ef7ea15d88191d74f0aa9998230",
+      "first_date_utc": "2020-07-16",
+      "last_date_utc": "2020-07-27",
+      "days": 12,
+      "records": 1801213
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2020-07-part-03.zip",
+      "bytes": 13666211,
+      "sha256": "c213c73e3ea4d6a9a56a3f94e9cf9112eeb1aefec110059872145d155633ab47",
+      "first_date_utc": "2020-07-28",
+      "last_date_utc": "2020-07-31",
+      "days": 4,
+      "records": 1160348
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2020-08-part-01.zip",
+      "bytes": 19224062,
+      "sha256": "814356c8dc60a70b1a98bba8f5a2ae31c819db779388e25b1e1873ca2cd4feda",
+      "first_date_utc": "2020-08-01",
+      "last_date_utc": "2020-08-10",
+      "days": 10,
+      "records": 1632267
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2020-08-part-02.zip",
+      "bytes": 19322500,
+      "sha256": "07f0cf92e7051099c2d1903ce81a03c619e436b53473b115f69e9ae9797a03bd",
+      "first_date_utc": "2020-08-11",
+      "last_date_utc": "2020-08-17",
+      "days": 7,
+      "records": 1599650
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2020-08-part-03.zip",
+      "bytes": 20228981,
+      "sha256": "01b181c8bbef4a308f37cf8d92bfc56b88883dc5c694da1dd5a0e0f63414c204",
+      "first_date_utc": "2020-08-18",
+      "last_date_utc": "2020-08-25",
+      "days": 8,
+      "records": 1698957
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2020-08-part-04.zip",
+      "bytes": 12223378,
+      "sha256": "aea5bc7cdda2601ca6493ad1542dac1c375c46de8c4b703be4f82c5e4ed8bd02",
+      "first_date_utc": "2020-08-26",
+      "last_date_utc": "2020-08-31",
+      "days": 6,
+      "records": 1030510
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2020-09-part-01.zip",
+      "bytes": 21058881,
+      "sha256": "06bec1b2e5d975938e25ab4d5f178aa803a4b116a2e4a28739a44f9d6c015699",
+      "first_date_utc": "2020-09-01",
+      "last_date_utc": "2020-09-10",
+      "days": 10,
+      "records": 1782136
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2020-09-part-02.zip",
+      "bytes": 20763930,
+      "sha256": "4810ec45320cbd6dbedfd8ad03e08fd5c7cad540df2111f0804ad61996db5aa5",
+      "first_date_utc": "2020-09-11",
+      "last_date_utc": "2020-09-22",
+      "days": 12,
+      "records": 1756058
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2020-09-part-03.zip",
+      "bytes": 19214146,
+      "sha256": "0031fe994a8be30b0ec3505981a5be6d204dfc7d67539c35bbf11c599f795b51",
+      "first_date_utc": "2020-09-23",
+      "last_date_utc": "2020-09-30",
+      "days": 8,
+      "records": 1609619
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2020-10-part-01.zip",
+      "bytes": 21781304,
+      "sha256": "63193d7a0eeea8a134331ea5bce3a9d820de585142bd7d3210204765c920cb0e",
+      "first_date_utc": "2020-10-01",
+      "last_date_utc": "2020-10-13",
+      "days": 13,
+      "records": 1838679
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2020-10-part-02.zip",
+      "bytes": 20798533,
+      "sha256": "b5cbc465c5e66f2403306206d193e7a08af36a509a6a00acf50224f3e2fdb6e7",
+      "first_date_utc": "2020-10-14",
+      "last_date_utc": "2020-10-27",
+      "days": 14,
+      "records": 1769977
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2020-10-part-03.zip",
+      "bytes": 7587881,
+      "sha256": "928306442a674bb6efd382513310cf8ab9db3f7d749c93f7a3a732dcbfd1dd47",
+      "first_date_utc": "2020-10-28",
+      "last_date_utc": "2020-10-31",
+      "days": 4,
+      "records": 639651
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2020-11-part-01.zip",
+      "bytes": 20326769,
+      "sha256": "6d9624dedaa56439a89f9c3717a22d66ef3974d2f6168b85deb05a30d542d45b",
+      "first_date_utc": "2020-11-01",
+      "last_date_utc": "2020-11-10",
+      "days": 10,
+      "records": 1704173
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2020-11-part-02.zip",
+      "bytes": 19714860,
+      "sha256": "df6c38a12cb6a4ab6fb15c314658db998d3705bff40eaf7ceb94407c82b74220",
+      "first_date_utc": "2020-11-11",
+      "last_date_utc": "2020-11-23",
+      "days": 13,
+      "records": 1660838
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2020-11-part-03.zip",
+      "bytes": 10740264,
+      "sha256": "aff5372f2c46768e32cf1a0bf1a3eb2747a1a080392e83ba49d44a8bc18ef283",
+      "first_date_utc": "2020-11-24",
+      "last_date_utc": "2020-11-30",
+      "days": 7,
+      "records": 893387
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2020-12-part-01.zip",
+      "bytes": 20935871,
+      "sha256": "6c140c73aaed7b203edc71220bfb68f081fc6432d03179f14c7cab0330831ccb",
+      "first_date_utc": "2020-12-01",
+      "last_date_utc": "2020-12-15",
+      "days": 15,
+      "records": 1778051
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2020-12-part-02.zip",
+      "bytes": 20827390,
+      "sha256": "ff4e82d63960f75affed24581db94201899b128ad2f44f6fee8d95a482a3e467",
+      "first_date_utc": "2020-12-16",
+      "last_date_utc": "2020-12-30",
+      "days": 15,
+      "records": 1764270
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2020-12-part-03.zip",
+      "bytes": 1481235,
+      "sha256": "0b75c75058c0d0735c4a127df8d85debb3e18bfdca66a4ebfb9e128587c1455d",
+      "first_date_utc": "2020-12-31",
+      "last_date_utc": "2020-12-31",
+      "days": 1,
+      "records": 126629
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2021-01-part-01.zip",
+      "bytes": 20017712,
+      "sha256": "7947fda66c69b3589053566ad5f50eb008eea8aead21682760a532f12258f42e",
+      "first_date_utc": "2021-01-01",
+      "last_date_utc": "2021-01-12",
+      "days": 12,
+      "records": 1656383
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2021-01-part-02.zip",
+      "bytes": 20095996,
+      "sha256": "794665ff9fc0d6acde3fca46c2e66317af36d4d7487b2f6bd0096aa8d829df3d",
+      "first_date_utc": "2021-01-13",
+      "last_date_utc": "2021-01-24",
+      "days": 12,
+      "records": 1681724
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2021-01-part-03.zip",
+      "bytes": 16677913,
+      "sha256": "35089a88ac3402b83fbfcfe71270f275d7a59556ac97262ab447a4d6016bb330",
+      "first_date_utc": "2021-01-25",
+      "last_date_utc": "2021-01-31",
+      "days": 7,
+      "records": 1413410
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2021-02-part-01.zip",
+      "bytes": 20323696,
+      "sha256": "db5f9b815582bb63709e6c5a9cffff85dc9e9ea895f4577bf170abc4a2618067",
+      "first_date_utc": "2021-02-01",
+      "last_date_utc": "2021-02-08",
+      "days": 8,
+      "records": 1735968
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2021-02-part-02.zip",
+      "bytes": 19406533,
+      "sha256": "167fc597dc51edb3be0f77eebb887d5caae639addfda3c32648c758acaa32613",
+      "first_date_utc": "2021-02-09",
+      "last_date_utc": "2021-02-18",
+      "days": 10,
+      "records": 1669981
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2021-02-part-03.zip",
+      "bytes": 21602466,
+      "sha256": "056f6ae6c86e24d26540c585dff1da34d28d8585e4b2be609470c321cc3eb4db",
+      "first_date_utc": "2021-02-19",
+      "last_date_utc": "2021-02-28",
+      "days": 10,
+      "records": 1856862
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2021-03-part-01.zip",
+      "bytes": 20540180,
+      "sha256": "78adeb6af1ba8c410f2ab33227fa98640db7191e05a3a80d1351b0e3d1c04551",
+      "first_date_utc": "2021-03-01",
+      "last_date_utc": "2021-03-07",
+      "days": 7,
+      "records": 1714114
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2021-03-part-02.zip",
+      "bytes": 21709779,
+      "sha256": "e9c822bf819dbcbab77d82aaddc1fb4487208e03a42e12221d63c82b702af36d",
+      "first_date_utc": "2021-03-08",
+      "last_date_utc": "2021-03-15",
+      "days": 8,
+      "records": 1810282
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2021-03-part-03.zip",
+      "bytes": 21521135,
+      "sha256": "47f0673c5a8ff0600603ab7feaede4e6b2f40a39b509cbf702e05e07708167a4",
+      "first_date_utc": "2021-03-16",
+      "last_date_utc": "2021-03-24",
+      "days": 9,
+      "records": 1825233
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2021-03-part-04.zip",
+      "bytes": 13078715,
+      "sha256": "47856236c17d1537c34618c48722fe13755ce8b66b3cda9fc33c40b2a041b29e",
+      "first_date_utc": "2021-03-25",
+      "last_date_utc": "2021-03-31",
+      "days": 7,
+      "records": 1133272
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2021-04-part-01.zip",
+      "bytes": 19623041,
+      "sha256": "005e5c5183f5753eadb63f9c16eaacebfbd69cd669b5a2fec0a4a089c40d0779",
+      "first_date_utc": "2021-04-01",
+      "last_date_utc": "2021-04-14",
+      "days": 14,
+      "records": 1713053
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2021-04-part-02.zip",
+      "bytes": 19932342,
+      "sha256": "9c2b0cac25c1db267d7657bdef191bd09ef1323ab31461459eb68f2615f1f2bc",
+      "first_date_utc": "2021-04-15",
+      "last_date_utc": "2021-04-26",
+      "days": 12,
+      "records": 1753901
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2021-04-part-03.zip",
+      "bytes": 9668753,
+      "sha256": "bcc9d9966f0d18ee5a10d7d0dc35a1b4472c6962a3a24f9c5d8fdfe25bad4d56",
+      "first_date_utc": "2021-04-27",
+      "last_date_utc": "2021-04-30",
+      "days": 4,
+      "records": 860411
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2021-05-part-01.zip",
+      "bytes": 18662527,
+      "sha256": "b7671b3a822feddb428d2bfd422132fc725b3a2679ce42587933d2bde3fb5a3f",
+      "first_date_utc": "2021-05-01",
+      "last_date_utc": "2021-05-11",
+      "days": 11,
+      "records": 1682794
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2021-05-part-02.zip",
+      "bytes": 21015489,
+      "sha256": "a224f874d8c97eba7ac2c890a3cacd3a1e7d4b48533dfd917811827958dcfbb4",
+      "first_date_utc": "2021-05-12",
+      "last_date_utc": "2021-05-23",
+      "days": 12,
+      "records": 1869784
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2021-05-part-03.zip",
+      "bytes": 13206554,
+      "sha256": "783c108296af1ab1a483f7953afdc5b7d613fb180be2cc5330a6c41fdeb97bad",
+      "first_date_utc": "2021-05-24",
+      "last_date_utc": "2021-05-31",
+      "days": 8,
+      "records": 1156741
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2021-06-part-01.zip",
+      "bytes": 20198505,
+      "sha256": "5930809e17c3daebade798e541682f0962f33df1ddf55d2ba50721616a203c53",
+      "first_date_utc": "2021-06-01",
+      "last_date_utc": "2021-06-13",
+      "days": 13,
+      "records": 1764692
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2021-06-part-02.zip",
+      "bytes": 20545302,
+      "sha256": "7c8bff06c8f1f92283a538f8187405d04dcee41cd6354689d4d6a433f5377516",
+      "first_date_utc": "2021-06-14",
+      "last_date_utc": "2021-06-22",
+      "days": 9,
+      "records": 1757560
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2021-06-part-03.zip",
+      "bytes": 11641895,
+      "sha256": "f1ce0ba49ef738ba7eae7ee65d8f6c1b3ea6e6f8c9e4963ab4995d66108dd6c3",
+      "first_date_utc": "2021-06-23",
+      "last_date_utc": "2021-06-30",
+      "days": 8,
+      "records": 988695
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2021-07-part-01.zip",
+      "bytes": 20425760,
+      "sha256": "cfa3f3b8aa620a1763ceaa00ba68fda4e9a24ea9f21df48f29859b0f625a126e",
+      "first_date_utc": "2021-07-01",
+      "last_date_utc": "2021-07-15",
+      "days": 15,
+      "records": 1715863
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2021-07-part-02.zip",
+      "bytes": 20487258,
+      "sha256": "4ce675d9565fc06f5b13cb2ceffdda8c1ade1e20dccf25071c9c02203b6d49b3",
+      "first_date_utc": "2021-07-16",
+      "last_date_utc": "2021-07-31",
+      "days": 16,
+      "records": 1746407
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2021-08-part-01.zip",
+      "bytes": 19959499,
+      "sha256": "e22f016728399e8a9d25bf8a9791fc0002bf93ec44b2c2f02acba22255d4d66b",
+      "first_date_utc": "2021-08-01",
+      "last_date_utc": "2021-08-16",
+      "days": 16,
+      "records": 1666569
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2021-08-part-02.zip",
+      "bytes": 21175649,
+      "sha256": "c809d8bfe5f1fead3b6f2ba65b6b09c01eb669fb06936db28baf35fe2c86fd1e",
+      "first_date_utc": "2021-08-17",
+      "last_date_utc": "2021-08-31",
+      "days": 15,
+      "records": 1791874
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2021-09-part-01.zip",
+      "bytes": 20373114,
+      "sha256": "31ca0c8ea833818e79e7d05ec3acec3eda12e18aa374e637593e5de717074627",
+      "first_date_utc": "2021-09-01",
+      "last_date_utc": "2021-09-14",
+      "days": 14,
+      "records": 1753735
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2021-09-part-02.zip",
+      "bytes": 19709734,
+      "sha256": "8fdc67552f4f3e25ab9883c836f6219f1afd9eeea6881195ed169f4e6265abb7",
+      "first_date_utc": "2021-09-15",
+      "last_date_utc": "2021-09-26",
+      "days": 12,
+      "records": 1699453
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2021-09-part-03.zip",
+      "bytes": 11026107,
+      "sha256": "895a150bfcb74e5349c37e0b7658c7b8e262f78531b86b1e2c215fabb308bc1a",
+      "first_date_utc": "2021-09-27",
+      "last_date_utc": "2021-09-30",
+      "days": 4,
+      "records": 917383
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2021-10-part-01.zip",
+      "bytes": 21347108,
+      "sha256": "b886b6dbb935a3dd0c6b59adafee7b5d88d7549bd35edfe4ab5087cbbe576c30",
+      "first_date_utc": "2021-10-01",
+      "last_date_utc": "2021-10-13",
+      "days": 13,
+      "records": 1799931
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2021-10-part-02.zip",
+      "bytes": 20395201,
+      "sha256": "174d16f233d87cf4e46bd770e27dff0bc7b2fd2e63b276530ab700634ee2cb9a",
+      "first_date_utc": "2021-10-14",
+      "last_date_utc": "2021-10-26",
+      "days": 13,
+      "records": 1722266
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2021-10-part-03.zip",
+      "bytes": 7646638,
+      "sha256": "7f93742249c8ef81ed5a9a0274f76d3dad51242f3311393690bf692522687e4d",
+      "first_date_utc": "2021-10-27",
+      "last_date_utc": "2021-10-31",
+      "days": 5,
+      "records": 647955
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2021-11-part-01.zip",
+      "bytes": 20307200,
+      "sha256": "e7dd6959eb4311d4c949a75831f12369a1095fcf12a7880e9b51450633128b08",
+      "first_date_utc": "2021-11-01",
+      "last_date_utc": "2021-11-11",
+      "days": 11,
+      "records": 1665835
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2021-11-part-02.zip",
+      "bytes": 21687452,
+      "sha256": "4ddc5068aa581d6d9e8906a1cd7a66ce449dca913fc287f39d81bd4e3acf6ab2",
+      "first_date_utc": "2021-11-12",
+      "last_date_utc": "2021-11-24",
+      "days": 13,
+      "records": 1772690
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2021-11-part-03.zip",
+      "bytes": 8862344,
+      "sha256": "61712b552f5e3eb4dd45bbca89acf70b76d0d2054c670ca59d16e88ac6b50875",
+      "first_date_utc": "2021-11-25",
+      "last_date_utc": "2021-11-30",
+      "days": 6,
+      "records": 718422
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2021-12-part-01.zip",
+      "bytes": 21471729,
+      "sha256": "55ed708eb302ae759e3ddb167cc3f09b90d24ebd51534b699a49968b68c4c08c",
+      "first_date_utc": "2021-12-01",
+      "last_date_utc": "2021-12-14",
+      "days": 14,
+      "records": 1757363
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2021-12-part-02.zip",
+      "bytes": 19922908,
+      "sha256": "e43dff7ac827add5aca8e0cd0ebd008763d1506181f18c8beb8b50e5436dfd50",
+      "first_date_utc": "2021-12-15",
+      "last_date_utc": "2021-12-31",
+      "days": 17,
+      "records": 1679032
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2022-01-part-01.zip",
+      "bytes": 20819426,
+      "sha256": "1b491901724e2a8996f0257a441747f1b3c353fc57d1f68fc23d3ac76453bd0a",
+      "first_date_utc": "2022-01-01",
+      "last_date_utc": "2022-01-16",
+      "days": 16,
+      "records": 1730078
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2022-01-part-02.zip",
+      "bytes": 20058099,
+      "sha256": "eaffa4dfc03e4126e026d4705aeec5d9ac4e5e37a721975a1e4ba2c7dc431bb8",
+      "first_date_utc": "2022-01-17",
+      "last_date_utc": "2022-01-26",
+      "days": 10,
+      "records": 1687742
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2022-01-part-03.zip",
+      "bytes": 7552829,
+      "sha256": "55f21eca68fb5100391a8ef9e77e4a438cdc06b2d7965d6cf5d0294526020c6b",
+      "first_date_utc": "2022-01-27",
+      "last_date_utc": "2022-01-31",
+      "days": 5,
+      "records": 631589
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2022-02-part-01.zip",
+      "bytes": 19093678,
+      "sha256": "44a16b89c314a9b273dedd5527e5f3f95bde67fd8bff8d340ec85c05c8cab07d",
+      "first_date_utc": "2022-02-01",
+      "last_date_utc": "2022-02-10",
+      "days": 10,
+      "records": 1600633
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2022-02-part-02.zip",
+      "bytes": 20545735,
+      "sha256": "252008afc33ead9d1a7ed9eeebeaba806a9ce89d9ab75472ef1625a544f9f053",
+      "first_date_utc": "2022-02-11",
+      "last_date_utc": "2022-02-21",
+      "days": 11,
+      "records": 1688740
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2022-02-part-03.zip",
+      "bytes": 19977794,
+      "sha256": "16455a29b40f4053b74266b01ce34125ef0e14bcb515332a7ae72ee92b451094",
+      "first_date_utc": "2022-02-22",
+      "last_date_utc": "2022-02-28",
+      "days": 7,
+      "records": 1624772
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2022-03-part-01.zip",
+      "bytes": 19304490,
+      "sha256": "4404b4b9c59ccd258dd0c2a6037f72c76fe17520f894362f61396bb47cac6adb",
+      "first_date_utc": "2022-03-01",
+      "last_date_utc": "2022-03-06",
+      "days": 6,
+      "records": 1543485
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2022-03-part-02.zip",
+      "bytes": 20908995,
+      "sha256": "a8bf148118d425f294940cf87e6b0fe7188e21be869ab369000f5917adbc47e8",
+      "first_date_utc": "2022-03-07",
+      "last_date_utc": "2022-03-13",
+      "days": 7,
+      "records": 1631030
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2022-03-part-03.zip",
+      "bytes": 21701582,
+      "sha256": "a9e13a547ffb127f75ef5453affaaa50af7410ea005547b89ca326f1e4a75dd9",
+      "first_date_utc": "2022-03-14",
+      "last_date_utc": "2022-03-24",
+      "days": 11,
+      "records": 1713002
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2022-03-part-04.zip",
+      "bytes": 16159827,
+      "sha256": "6e407dbe148ebac4a9e547a5992f1c22e0f866379aa2a5341d72267e4ae78814",
+      "first_date_utc": "2022-03-25",
+      "last_date_utc": "2022-03-31",
+      "days": 7,
+      "records": 1285807
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2022-04-part-01.zip",
+      "bytes": 19255727,
+      "sha256": "8ff78761320d0672870611f90684cae3433a12d80507cfa45bb584b0bd815a99",
+      "first_date_utc": "2022-04-01",
+      "last_date_utc": "2022-04-11",
+      "days": 11,
+      "records": 1543963
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2022-04-part-02.zip",
+      "bytes": 19304516,
+      "sha256": "2aa96b67856a00a3acece99c562a994564f01af1de7a0046e046d99929e01c45",
+      "first_date_utc": "2022-04-12",
+      "last_date_utc": "2022-04-21",
+      "days": 10,
+      "records": 1563614
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2022-04-part-03.zip",
+      "bytes": 19366949,
+      "sha256": "a572fa25bab6b91205c5d7657e127ea6562d4e0a7d8652edb31d1886e18108e4",
+      "first_date_utc": "2022-04-22",
+      "last_date_utc": "2022-04-30",
+      "days": 9,
+      "records": 1589903
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2022-05-part-01.zip",
+      "bytes": 21527909,
+      "sha256": "4717dddc71f58f983b8dd07ffec61adb5214aa0625e756b0ba4c553ad936e4db",
+      "first_date_utc": "2022-05-01",
+      "last_date_utc": "2022-05-10",
+      "days": 10,
+      "records": 1767114
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2022-05-part-02.zip",
+      "bytes": 19805506,
+      "sha256": "0a9d52908ac3950c26cee78bd275f372f85e01937046defe3658cce81ce484af",
+      "first_date_utc": "2022-05-11",
+      "last_date_utc": "2022-05-19",
+      "days": 9,
+      "records": 1607837
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2022-05-part-03.zip",
+      "bytes": 15492064,
+      "sha256": "3d65f201b837f5821ad6e3d24506454d5f3356e8ced6257e6d283ede6bbd746c",
+      "first_date_utc": "2022-05-20",
+      "last_date_utc": "2022-05-31",
+      "days": 12,
+      "records": 1253716
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2022-06-part-01.zip",
+      "bytes": 21554839,
+      "sha256": "dcfaaac40d93ea0b63c56d8998d86ecb10621043573c49ff000602f0babf3ea5",
+      "first_date_utc": "2022-06-01",
+      "last_date_utc": "2022-06-14",
+      "days": 14,
+      "records": 1719561
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2022-06-part-02.zip",
+      "bytes": 20656288,
+      "sha256": "1e32a41ee16ce0a9f9ac3ffb2b5553acfd50a154307dc9f41f505f52b62f1ec8",
+      "first_date_utc": "2022-06-15",
+      "last_date_utc": "2022-06-26",
+      "days": 12,
+      "records": 1658003
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2022-06-part-03.zip",
+      "bytes": 9404137,
+      "sha256": "e3e16363b420234c47676d3d98e38d9ce3c1d75d0acf6deba3803fee73a51a52",
+      "first_date_utc": "2022-06-27",
+      "last_date_utc": "2022-06-30",
+      "days": 4,
+      "records": 761505
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2022-07-part-01.zip",
+      "bytes": 19917588,
+      "sha256": "01b5bf99a88af9de3ad610d1326c461abaf340a288cc99f26865bc1d7933b2a0",
+      "first_date_utc": "2022-07-01",
+      "last_date_utc": "2022-07-12",
+      "days": 12,
+      "records": 1589082
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2022-07-part-02.zip",
+      "bytes": 19300194,
+      "sha256": "9f9dcf7a3101fbd31258e2f99ab40df8c1a278ee1dd71afad8558a3e409ea221",
+      "first_date_utc": "2022-07-13",
+      "last_date_utc": "2022-07-21",
+      "days": 9,
+      "records": 1542049
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2022-07-part-03.zip",
+      "bytes": 15686084,
+      "sha256": "863643a2f3f59ee1af22be402440be17a8a211874bcca9c7236308eab972a232",
+      "first_date_utc": "2022-07-22",
+      "last_date_utc": "2022-07-31",
+      "days": 10,
+      "records": 1266960
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2022-08-part-01.zip",
+      "bytes": 19700208,
+      "sha256": "53d9e9c8d6c684f12c3ac2180957b65a80f3daf7e77d57ae343bf764510793ca",
+      "first_date_utc": "2022-08-01",
+      "last_date_utc": "2022-08-10",
+      "days": 10,
+      "records": 1609397
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2022-08-part-02.zip",
+      "bytes": 21508774,
+      "sha256": "256ca038075680b5e10f566192d601527370c88f8b71d3a60a7c140ce53afab6",
+      "first_date_utc": "2022-08-11",
+      "last_date_utc": "2022-08-24",
+      "days": 14,
+      "records": 1760831
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2022-08-part-03.zip",
+      "bytes": 11300431,
+      "sha256": "82bd792290e1f227343e1af408a969c7eaced55d2ca8af42dbdfc55d26cc3e9c",
+      "first_date_utc": "2022-08-25",
+      "last_date_utc": "2022-08-31",
+      "days": 7,
+      "records": 918096
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2022-09-part-01.zip",
+      "bytes": 19816862,
+      "sha256": "90e864bc3f2037c32c94771c5eab99950f418b0c8430fbf119ded5ecc6c73193",
+      "first_date_utc": "2022-09-01",
+      "last_date_utc": "2022-09-12",
+      "days": 12,
+      "records": 1596157
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2022-09-part-02.zip",
+      "bytes": 18716297,
+      "sha256": "94c0480e758d3d2227fedc36d5dc96be264572a04adae641120721aedac052a6",
+      "first_date_utc": "2022-09-13",
+      "last_date_utc": "2022-09-21",
+      "days": 9,
+      "records": 1501388
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2022-09-part-03.zip",
+      "bytes": 21384143,
+      "sha256": "72e57c31b95792bf7fb063ea3945239da997732b54cab5cd295ca51cfe48f668",
+      "first_date_utc": "2022-09-22",
+      "last_date_utc": "2022-09-29",
+      "days": 8,
+      "records": 1694730
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2022-09-part-04.zip",
+      "bytes": 2920301,
+      "sha256": "784054c03424357ba3ee6c886bf5ba0af73f309e755adc064329ff125ad4e640",
+      "first_date_utc": "2022-09-30",
+      "last_date_utc": "2022-09-30",
+      "days": 1,
+      "records": 237140
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2022-10-part-01.zip",
+      "bytes": 20758641,
+      "sha256": "270d202ad6cea30aa475fe30de91ebb250780cf418cb84b368f3800a7d17a45f",
+      "first_date_utc": "2022-10-01",
+      "last_date_utc": "2022-10-11",
+      "days": 11,
+      "records": 1662700
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2022-10-part-02.zip",
+      "bytes": 21797956,
+      "sha256": "fbeae2e7946726911ee7ac412218cb2b00ef2a791a2e3b23e53800eec3797d13",
+      "first_date_utc": "2022-10-12",
+      "last_date_utc": "2022-10-23",
+      "days": 12,
+      "records": 1805976
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2022-10-part-03.zip",
+      "bytes": 12135190,
+      "sha256": "96a6eb1c336ec48ae1f64680fc86ced5806f1c285a8d2a44f0b6480ae3df9b1c",
+      "first_date_utc": "2022-10-24",
+      "last_date_utc": "2022-10-31",
+      "days": 8,
+      "records": 1029584
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2022-11-part-01.zip",
+      "bytes": 21276406,
+      "sha256": "c338d3e11be0a75245c0e533e7b109b373d198d2890251c3960186623f3a6e85",
+      "first_date_utc": "2022-11-01",
+      "last_date_utc": "2022-11-14",
+      "days": 14,
+      "records": 1777556
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2022-11-part-02.zip",
+      "bytes": 20250292,
+      "sha256": "2016e919f2545a1c817d3bae164b92a902d76ad9524814db26d966fa7bbf26c7",
+      "first_date_utc": "2022-11-15",
+      "last_date_utc": "2022-11-29",
+      "days": 15,
+      "records": 1696515
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2022-11-part-03.zip",
+      "bytes": 2015474,
+      "sha256": "9b96ad45599909fd4c4cb84588faaa5d8b49115a3fb5b30aae7697d04d4a2267",
+      "first_date_utc": "2022-11-30",
+      "last_date_utc": "2022-11-30",
+      "days": 1,
+      "records": 167705
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2022-12-part-01.zip",
+      "bytes": 21283491,
+      "sha256": "39ac268f96d9187764499aa6b236ad3715c920845165b2a3f08cb798783bfc22",
+      "first_date_utc": "2022-12-01",
+      "last_date_utc": "2022-12-15",
+      "days": 15,
+      "records": 1819020
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2022-12-part-02.zip",
+      "bytes": 17478171,
+      "sha256": "4028f38a92c9b1662494ac2c4148fd8f0b0792a31c8a1b07b8983b73d670c70e",
+      "first_date_utc": "2022-12-16",
+      "last_date_utc": "2022-12-31",
+      "days": 16,
+      "records": 1572119
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2023-01-part-01.zip",
+      "bytes": 20316094,
+      "sha256": "a4c0e2720cd4f4928edc2ec679917f0b62096aae79ddba50d7dfd170a1c41c2a",
+      "first_date_utc": "2023-01-01",
+      "last_date_utc": "2023-01-16",
+      "days": 16,
+      "records": 1793310
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2023-01-part-02.zip",
+      "bytes": 20575292,
+      "sha256": "044fe049c2a0e95de42fc86700ca7a49d1bba295dd734a97492e3b164817c7c9",
+      "first_date_utc": "2023-01-17",
+      "last_date_utc": "2023-01-31",
+      "days": 15,
+      "records": 1816753
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2023-02-part-01.zip",
+      "bytes": 20351134,
+      "sha256": "39ae4d4696c9c6cf0f4e895953ca66f9f6778984180ec31d492fe03ed600fdf8",
+      "first_date_utc": "2023-02-01",
+      "last_date_utc": "2023-02-14",
+      "days": 14,
+      "records": 1777193
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2023-02-part-02.zip",
+      "bytes": 16608146,
+      "sha256": "119c80ecb0f7fe9bbb4f25b31a44094b15236617a42602f7299f1d04cddae724",
+      "first_date_utc": "2023-02-15",
+      "last_date_utc": "2023-02-28",
+      "days": 14,
+      "records": 1458834
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2023-03-part-01.zip",
+      "bytes": 20285613,
+      "sha256": "e969bffa13c4c5f1d5af0ab5cb537f426555d6f8c403b6af76f884df8d6ab93f",
+      "first_date_utc": "2023-03-01",
+      "last_date_utc": "2023-03-14",
+      "days": 14,
+      "records": 1789716
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2023-03-part-02.zip",
+      "bytes": 21584528,
+      "sha256": "abec92c11eac9a34d382d1663480a5e391bc25c1cea9521626ffdf905b93aa98",
+      "first_date_utc": "2023-03-15",
+      "last_date_utc": "2023-03-26",
+      "days": 12,
+      "records": 1900830
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2023-03-part-03.zip",
+      "bytes": 8809342,
+      "sha256": "2548b9ccf3e0f0f77301a041d650e007c652b38bbf440ff933daf6720f00bc88",
+      "first_date_utc": "2023-03-27",
+      "last_date_utc": "2023-03-31",
+      "days": 5,
+      "records": 771772
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2023-04-part-01.zip",
+      "bytes": 20752217,
+      "sha256": "3a5b5aa75017789ccb90abc6f4570bd0ecc59fdc9e9bbb2fce565b59c23dac9b",
+      "first_date_utc": "2023-04-01",
+      "last_date_utc": "2023-04-19",
+      "days": 19,
+      "records": 1815958
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2023-04-part-02.zip",
+      "bytes": 12773151,
+      "sha256": "13c524b435624d6d91db25dd84743a1d7d103804b492301940ef3078e5815287",
+      "first_date_utc": "2023-04-20",
+      "last_date_utc": "2023-04-30",
+      "days": 11,
+      "records": 1141405
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2023-05-part-01.zip",
+      "bytes": 20954330,
+      "sha256": "3418497d22d84033095858b0f7c14376da1419b33663051303ecc9bffb8fde08",
+      "first_date_utc": "2023-05-01",
+      "last_date_utc": "2023-05-14",
+      "days": 14,
+      "records": 1871423
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2023-05-part-02.zip",
+      "bytes": 21180753,
+      "sha256": "99afd2b05f97f566b053874b654c09b28761a767c5fd67b6b13d4fab97e4acb5",
+      "first_date_utc": "2023-05-15",
+      "last_date_utc": "2023-05-30",
+      "days": 16,
+      "records": 1907177
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2023-05-part-03.zip",
+      "bytes": 1739289,
+      "sha256": "98e0f0681dffab3561ea81967e06ea1357e8a639bf0b73139a2a40e589990017",
+      "first_date_utc": "2023-05-31",
+      "last_date_utc": "2023-05-31",
+      "days": 1,
+      "records": 155056
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2023-06-part-01.zip",
+      "bytes": 21529817,
+      "sha256": "e49820cb9ce9f050d5e7241a81fd6bd013c7bd15fe9687d530ee37f8d75304aa",
+      "first_date_utc": "2023-06-01",
+      "last_date_utc": "2023-06-20",
+      "days": 20,
+      "records": 1935402
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2023-06-part-02.zip",
+      "bytes": 12769936,
+      "sha256": "0a1f8f8da744ff0f0ebf58d393b10e006b4c51e73667200d68911b2fc6963322",
+      "first_date_utc": "2023-06-21",
+      "last_date_utc": "2023-06-30",
+      "days": 10,
+      "records": 1156586
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2023-07-part-01.zip",
+      "bytes": 21553530,
+      "sha256": "93d5299695f6b9bddb9f7f4edcd5624e600eeb7876fc114673495150eb714a8d",
+      "first_date_utc": "2023-07-01",
+      "last_date_utc": "2023-07-23",
+      "days": 23,
+      "records": 1938866
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2023-07-part-02.zip",
+      "bytes": 9225170,
+      "sha256": "71d101aeb28951168811666d84e92fb7a125a9b074f0bde3f5c9267571015bfa",
+      "first_date_utc": "2023-07-24",
+      "last_date_utc": "2023-07-31",
+      "days": 8,
+      "records": 821418
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2023-08-part-01.zip",
+      "bytes": 21499915,
+      "sha256": "7deac1e1a81e6a7175fbc512f03549fd56db04836dfee24ec32726b4385d2a79",
+      "first_date_utc": "2023-08-01",
+      "last_date_utc": "2023-08-24",
+      "days": 24,
+      "records": 1921810
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2023-08-part-02.zip",
+      "bytes": 5055094,
+      "sha256": "574291ff91c930942247a9fc5c854d4edb375e28210431c4419240a4f00f581a",
+      "first_date_utc": "2023-08-25",
+      "last_date_utc": "2023-08-31",
+      "days": 7,
+      "records": 451796
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2023-09-part-01.zip",
+      "bytes": 20891519,
+      "sha256": "dfc5664be4191239440a30184d719f5bcee7e7889d848f5d88dffacbf7c5244c",
+      "first_date_utc": "2023-09-01",
+      "last_date_utc": "2023-09-30",
+      "days": 30,
+      "records": 1893425
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2023-10-part-01.zip",
+      "bytes": 21556246,
+      "sha256": "8860af89c5413f6774ff3555aaa8cdc279aea807f72c25d39ff4c17a57ff6544",
+      "first_date_utc": "2023-10-01",
+      "last_date_utc": "2023-10-22",
+      "days": 22,
+      "records": 1928115
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2023-10-part-02.zip",
+      "bytes": 10459171,
+      "sha256": "9ac29d88de51903e80354b7ebb2564099db24322ee4df81db477cda0801de750",
+      "first_date_utc": "2023-10-23",
+      "last_date_utc": "2023-10-31",
+      "days": 9,
+      "records": 913192
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2023-11-part-01.zip",
+      "bytes": 21301504,
+      "sha256": "fbceeb3abea18237c6ccd0ec961b597e4b9107c7a92e2648a4727af3ad32760b",
+      "first_date_utc": "2023-11-01",
+      "last_date_utc": "2023-11-23",
+      "days": 23,
+      "records": 1897475
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2023-11-part-02.zip",
+      "bytes": 6737690,
+      "sha256": "ea32727276ba3f2c491062fe7f898ba308b488a3350fd28069f2470123692587",
+      "first_date_utc": "2023-11-24",
+      "last_date_utc": "2023-11-30",
+      "days": 7,
+      "records": 594298
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2023-12-part-01.zip",
+      "bytes": 20829965,
+      "sha256": "9d5649c06c0b75d81c41519f3ca5717d78bbea362dc59e16282841f62ff7e770",
+      "first_date_utc": "2023-12-01",
+      "last_date_utc": "2023-12-18",
+      "days": 18,
+      "records": 1804616
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2023-12-part-02.zip",
+      "bytes": 11161017,
+      "sha256": "a24ef0ed61fdf504c6de02018565b23b217c3e9558c4e5d952d0594209bbeafd",
+      "first_date_utc": "2023-12-19",
+      "last_date_utc": "2023-12-31",
+      "days": 13,
+      "records": 961096
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2024-01-part-01.zip",
+      "bytes": 20696584,
+      "sha256": "8bb49e281284c8508f32fbeca51e58a0af28382b5713552b68cb6bbff81e7738",
+      "first_date_utc": "2024-01-01",
+      "last_date_utc": "2024-01-17",
+      "days": 17,
+      "records": 1787395
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2024-01-part-02.zip",
+      "bytes": 14652550,
+      "sha256": "c8f98c65951e397b3ff58f53d0122dd4347f851c527e8ab90f54f60400184529",
+      "first_date_utc": "2024-01-18",
+      "last_date_utc": "2024-01-31",
+      "days": 14,
+      "records": 1272102
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2024-02-part-01.zip",
+      "bytes": 21375936,
+      "sha256": "fdc3864cdb92969129a3b29c80a29eab3ec51e6aee3ead91f91a7fdbbb7d6386",
+      "first_date_utc": "2024-02-01",
+      "last_date_utc": "2024-02-26",
+      "days": 26,
+      "records": 1851607
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2024-02-part-02.zip",
+      "bytes": 3149529,
+      "sha256": "2ab6dacf02b2c3cad05ed14a7116b1212b0cbe7abfb0e671ecde27495551b061",
+      "first_date_utc": "2024-02-27",
+      "last_date_utc": "2024-02-29",
+      "days": 3,
+      "records": 274789
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2024-03-part-01.zip",
+      "bytes": 21485858,
+      "sha256": "7c543f59e668d49f5d2d9fe907feb40193c6620781f5754ba1ceff8fff4475b0",
+      "first_date_utc": "2024-03-01",
+      "last_date_utc": "2024-03-20",
+      "days": 20,
+      "records": 1839258
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2024-03-part-02.zip",
+      "bytes": 10434643,
+      "sha256": "74674c0f31ac4b98b0bc125f31cd145ef5eb1e4a92d5e93c44537af14025c3b8",
+      "first_date_utc": "2024-03-21",
+      "last_date_utc": "2024-03-31",
+      "days": 11,
+      "records": 894318
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2024-04-part-01.zip",
+      "bytes": 20802918,
+      "sha256": "1bccf41c9ffe53e5b0511731a55b42b729775946279d93323d78da99481bf747",
+      "first_date_utc": "2024-04-01",
+      "last_date_utc": "2024-04-10",
+      "days": 10,
+      "records": 1719141
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2024-04-part-02.zip",
+      "bytes": 20306053,
+      "sha256": "d34cf766b074a6224fa0962542a306518126de3efe4735830ec88cfa0b3060fd",
+      "first_date_utc": "2024-04-11",
+      "last_date_utc": "2024-04-18",
+      "days": 8,
+      "records": 1667457
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2024-04-part-03.zip",
+      "bytes": 20492845,
+      "sha256": "3a78d5d7a01accaea84aa2f66b41ca197a3223c3a42f13ec19660f13b7129eee",
+      "first_date_utc": "2024-04-19",
+      "last_date_utc": "2024-04-29",
+      "days": 11,
+      "records": 1677692
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2024-04-part-04.zip",
+      "bytes": 2209854,
+      "sha256": "1d1593747b5ce3124b561a32cba744e351431a3235a899bd04de56b7ac8de34e",
+      "first_date_utc": "2024-04-30",
+      "last_date_utc": "2024-04-30",
+      "days": 1,
+      "records": 188337
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2024-05-part-01.zip",
+      "bytes": 21060628,
+      "sha256": "a65a886cac8321123dc97a1f78e45a1b225691058412d5177e1432318432bcdf",
+      "first_date_utc": "2024-05-01",
+      "last_date_utc": "2024-05-13",
+      "days": 13,
+      "records": 1733235
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2024-05-part-02.zip",
+      "bytes": 20590228,
+      "sha256": "a34d7943ea6e612d5c874819e64715bcc7ecae59be75f495fe1d719ac6c72a76",
+      "first_date_utc": "2024-05-14",
+      "last_date_utc": "2024-05-22",
+      "days": 9,
+      "records": 1729244
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2024-05-part-03.zip",
+      "bytes": 18865210,
+      "sha256": "874de15213c6d45cec58772b1943ec47de54e9a2a90a7fbf30a299f1c9db165d",
+      "first_date_utc": "2024-05-23",
+      "last_date_utc": "2024-05-31",
+      "days": 9,
+      "records": 1592227
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2024-06-part-01.zip",
+      "bytes": 20328660,
+      "sha256": "40a55369dd14be7a48b1ed49bedb0d3603625649e17c2f79f681e7180a2397ba",
+      "first_date_utc": "2024-06-01",
+      "last_date_utc": "2024-06-11",
+      "days": 11,
+      "records": 1697075
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2024-06-part-02.zip",
+      "bytes": 21037709,
+      "sha256": "2d7e76fbe84f883bd2d48554cca9625a4813f0d88784f68a5470e8e855244069",
+      "first_date_utc": "2024-06-12",
+      "last_date_utc": "2024-06-23",
+      "days": 12,
+      "records": 1764187
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2024-06-part-03.zip",
+      "bytes": 13913353,
+      "sha256": "77dbd35f87ae0858ea4e0ac38f5348eecd28ee09b36060ccbe6776b25d43be72",
+      "first_date_utc": "2024-06-24",
+      "last_date_utc": "2024-06-30",
+      "days": 7,
+      "records": 1177827
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2024-07-part-01.zip",
+      "bytes": 20076347,
+      "sha256": "eae19efacc590690eec95b5b9eb5d78813a52cbc9ee1ac6886c0bfdeacc0f914",
+      "first_date_utc": "2024-07-01",
+      "last_date_utc": "2024-07-10",
+      "days": 10,
+      "records": 1691091
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2024-07-part-02.zip",
+      "bytes": 21801725,
+      "sha256": "3ed3a07bd9bb82801762039fc856df02f238c4f0ae632c61cc186b0d5f4f256d",
+      "first_date_utc": "2024-07-11",
+      "last_date_utc": "2024-07-21",
+      "days": 11,
+      "records": 1857379
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2024-07-part-03.zip",
+      "bytes": 21331497,
+      "sha256": "f6d67d7d61ae96bad40d1bc9c99dee0954adcd304f5de697b221fa55091445af",
+      "first_date_utc": "2024-07-22",
+      "last_date_utc": "2024-07-30",
+      "days": 9,
+      "records": 1828685
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2024-07-part-04.zip",
+      "bytes": 3193872,
+      "sha256": "7be19549cea7d0daec69e3c04f55e11ae5bf36f8e7b80abbe6417edfff7b52f3",
+      "first_date_utc": "2024-07-31",
+      "last_date_utc": "2024-07-31",
+      "days": 1,
+      "records": 274427
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2024-08-part-01.zip",
+      "bytes": 21560626,
+      "sha256": "e00882634d89e8ab642f63cdbc0f6bb745f85665827f98c5c6de149dabce88ab",
+      "first_date_utc": "2024-08-01",
+      "last_date_utc": "2024-08-07",
+      "days": 7,
+      "records": 1806369
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2024-08-part-02.zip",
+      "bytes": 20757938,
+      "sha256": "0df72c5a305d8732fd6d38e8f8afa0922d80ba704a2381d3b03e7f61270a930a",
+      "first_date_utc": "2024-08-08",
+      "last_date_utc": "2024-08-18",
+      "days": 11,
+      "records": 1769062
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2024-08-part-03.zip",
+      "bytes": 20582974,
+      "sha256": "7aabdaa5f8c88a318e3a878e37346c244312eba50a42904858d81697b269c118",
+      "first_date_utc": "2024-08-19",
+      "last_date_utc": "2024-08-27",
+      "days": 9,
+      "records": 1756281
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2024-08-part-04.zip",
+      "bytes": 7743118,
+      "sha256": "d2b36f059964dacaf6986b5c509fb5d9cfd692ae239409b8875954d9d4346eec",
+      "first_date_utc": "2024-08-28",
+      "last_date_utc": "2024-08-31",
+      "days": 4,
+      "records": 655910
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2024-09-part-01.zip",
+      "bytes": 20577460,
+      "sha256": "ac9c7669ea74b4879f3baff66de3a46725da010453a58dd5fea46a0f0bc9afbb",
+      "first_date_utc": "2024-09-01",
+      "last_date_utc": "2024-09-11",
+      "days": 11,
+      "records": 1739190
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2024-09-part-02.zip",
+      "bytes": 20696858,
+      "sha256": "dbb7986faf02a19406e5d6a4f2b359167a7a7afa2e10abcd1190b863c8078740",
+      "first_date_utc": "2024-09-12",
+      "last_date_utc": "2024-09-22",
+      "days": 11,
+      "records": 1725556
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2024-09-part-03.zip",
+      "bytes": 19892116,
+      "sha256": "0deecac7fb8b46913faaa6e96673e63ceee77cd1edd0a00941e0659efdf3c764",
+      "first_date_utc": "2024-09-23",
+      "last_date_utc": "2024-09-30",
+      "days": 8,
+      "records": 1656884
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2024-10-part-01.zip",
+      "bytes": 18855303,
+      "sha256": "041ec1e03fb7ff4e66d8e512a3d69fa1c1f8af435156349f03ac0942f7f1e6ee",
+      "first_date_utc": "2024-10-01",
+      "last_date_utc": "2024-10-09",
+      "days": 9,
+      "records": 1593663
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2024-10-part-02.zip",
+      "bytes": 18995382,
+      "sha256": "a0975fe7104d16feb600200a167e80009e3812903c08ace17e245c96ea4bd46f",
+      "first_date_utc": "2024-10-10",
+      "last_date_utc": "2024-10-20",
+      "days": 11,
+      "records": 1603554
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2024-10-part-03.zip",
+      "bytes": 21595338,
+      "sha256": "1707ef2a6b1dbf63ac47462f3cd0a172332d51c45f5d16f9163d64c52594bc84",
+      "first_date_utc": "2024-10-21",
+      "last_date_utc": "2024-10-29",
+      "days": 9,
+      "records": 1820654
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2024-10-part-04.zip",
+      "bytes": 6452298,
+      "sha256": "f52db4df23e86b64f55d71d7f922964aed252f0ab29eec08e7d9155862d87cc5",
+      "first_date_utc": "2024-10-30",
+      "last_date_utc": "2024-10-31",
+      "days": 2,
+      "records": 544196
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2024-11-part-01.zip",
+      "bytes": 21299731,
+      "sha256": "509bfa42054acd17245953c94ca418a6ab5889a21d546612e235542fc99aef41",
+      "first_date_utc": "2024-11-01",
+      "last_date_utc": "2024-11-10",
+      "days": 10,
+      "records": 1795960
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2024-11-part-02.zip",
+      "bytes": 20971948,
+      "sha256": "4f3e1f70f8b4040115926da4ead635c9314b3b109121bb0c0f6346906c0b42c8",
+      "first_date_utc": "2024-11-11",
+      "last_date_utc": "2024-11-18",
+      "days": 8,
+      "records": 1759411
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2024-11-part-03.zip",
+      "bytes": 20537888,
+      "sha256": "b279f577ad038beb6261600d20acf3a2775a204c16b3e8c80671035f827e04c9",
+      "first_date_utc": "2024-11-19",
+      "last_date_utc": "2024-11-26",
+      "days": 8,
+      "records": 1726602
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2024-11-part-04.zip",
+      "bytes": 7753974,
+      "sha256": "002fcedb07c125af10e84929c7072e322170e82eced87cdb14317861f1585ec4",
+      "first_date_utc": "2024-11-27",
+      "last_date_utc": "2024-11-30",
+      "days": 4,
+      "records": 656307
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2024-12-part-01.zip",
+      "bytes": 21151182,
+      "sha256": "4e98aac1dd914baa8a9eef703d13fc92cad87cafd23ab116425627b78d40bfe9",
+      "first_date_utc": "2024-12-01",
+      "last_date_utc": "2024-12-10",
+      "days": 10,
+      "records": 1825854
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2024-12-part-02.zip",
+      "bytes": 19442163,
+      "sha256": "50b53b9aaba6636d0cff20e3377326bfcb9cb076a1d706b7302ec6dff611fddf",
+      "first_date_utc": "2024-12-11",
+      "last_date_utc": "2024-12-18",
+      "days": 8,
+      "records": 1634904
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2024-12-part-03.zip",
+      "bytes": 19025044,
+      "sha256": "22568d4c635f55372ad1293c9e1273d06dbe110940332220db37c76ad1e61f54",
+      "first_date_utc": "2024-12-19",
+      "last_date_utc": "2024-12-31",
+      "days": 13,
+      "records": 1629315
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2025-01-part-01.zip",
+      "bytes": 20491324,
+      "sha256": "cddc65cd771cdf15b6b4848895396ff2e5e5e111d05bae45ab38770d74fe0c21",
+      "first_date_utc": "2025-01-01",
+      "last_date_utc": "2025-01-12",
+      "days": 12,
+      "records": 1729674
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2025-01-part-02.zip",
+      "bytes": 19010784,
+      "sha256": "671c48c31c404463b020b043bf93fe6c2d0a17ee10949a328ca3f8b9899686ff",
+      "first_date_utc": "2025-01-13",
+      "last_date_utc": "2025-01-20",
+      "days": 8,
+      "records": 1606163
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2025-01-part-03.zip",
+      "bytes": 21140320,
+      "sha256": "f679c1194786deab30fb82cc1f05a8ee96ce6c69b36bdbf9042b34513385122f",
+      "first_date_utc": "2025-01-21",
+      "last_date_utc": "2025-01-29",
+      "days": 9,
+      "records": 1849690
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2025-01-part-04.zip",
+      "bytes": 7112218,
+      "sha256": "6f232ab5464b0fbc7f706821715532fbcac4cf11d763bc1e3f3113109081c6c5",
+      "first_date_utc": "2025-01-30",
+      "last_date_utc": "2025-01-31",
+      "days": 2,
+      "records": 612699
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2025-02-part-01.zip",
+      "bytes": 18752855,
+      "sha256": "05401dcb73d915a6077c029b036fd727df704c9cf9cee0cfb2002ba508be31f2",
+      "first_date_utc": "2025-02-01",
+      "last_date_utc": "2025-02-09",
+      "days": 9,
+      "records": 1617935
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2025-02-part-02.zip",
+      "bytes": 19978397,
+      "sha256": "562323b20e9a411cd3f9c83250a868827006e5eab49802761ca5057d9aa61397",
+      "first_date_utc": "2025-02-10",
+      "last_date_utc": "2025-02-17",
+      "days": 8,
+      "records": 1747415
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2025-02-part-03.zip",
+      "bytes": 21116988,
+      "sha256": "b80759f8fa63f0906de7d452748767bbb706e7bcafcfac53bb6cb4223cd4a1e8",
+      "first_date_utc": "2025-02-18",
+      "last_date_utc": "2025-02-26",
+      "days": 9,
+      "records": 1844965
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2025-02-part-04.zip",
+      "bytes": 7067124,
+      "sha256": "ac8909ea59aae8be0e2e9e4a58ba7a96eaa5f75c833315453c92cae8f4d605a0",
+      "first_date_utc": "2025-02-27",
+      "last_date_utc": "2025-02-28",
+      "days": 2,
+      "records": 605469
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2025-03-part-01.zip",
+      "bytes": 19630801,
+      "sha256": "8463740ed65b63db480c62f0cc609e0fc34b09ff4425be5b1b7cc8ba2310da6d",
+      "first_date_utc": "2025-03-01",
+      "last_date_utc": "2025-03-10",
+      "days": 10,
+      "records": 1696551
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2025-03-part-02.zip",
+      "bytes": 20429278,
+      "sha256": "17afcf0295fc83183142350d62312d7a4a4ddbf3df5f5ee24d4f5bf0d5b74ded",
+      "first_date_utc": "2025-03-11",
+      "last_date_utc": "2025-03-19",
+      "days": 9,
+      "records": 1779375
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2025-03-part-03.zip",
+      "bytes": 19272270,
+      "sha256": "e650faf91a5f6e4020eb43f58fad721f1bfb8268b6a3eef49ccff00ecfc1d26c",
+      "first_date_utc": "2025-03-20",
+      "last_date_utc": "2025-03-30",
+      "days": 11,
+      "records": 1657344
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2025-03-part-04.zip",
+      "bytes": 3171801,
+      "sha256": "5a6a5f44838484ea0eff73ae41f908606288d51a8f6e5babc1e40d1ccf546070",
+      "first_date_utc": "2025-03-31",
+      "last_date_utc": "2025-03-31",
+      "days": 1,
+      "records": 263229
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2025-04-part-01.zip",
+      "bytes": 21683721,
+      "sha256": "746439c8afd79eb63e23b393aec9399b67b7fdbcdcaed6a6a4335e526f5b2cdd",
+      "first_date_utc": "2025-04-01",
+      "last_date_utc": "2025-04-07",
+      "days": 7,
+      "records": 1775839
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2025-04-part-02.zip",
+      "bytes": 21459296,
+      "sha256": "ab4eaa7ba16d85058c94f4788f6fd07ae6ec6f32becca4dc04e696d1b61f4606",
+      "first_date_utc": "2025-04-08",
+      "last_date_utc": "2025-04-15",
+      "days": 8,
+      "records": 1789152
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2025-04-part-03.zip",
+      "bytes": 20491105,
+      "sha256": "6363afa823d1c2d9fb6d09b87b978463e43a0a9c7b910082f8bb8678e8b3f6db",
+      "first_date_utc": "2025-04-16",
+      "last_date_utc": "2025-04-24",
+      "days": 9,
+      "records": 1687186
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2025-04-part-04.zip",
+      "bytes": 11071660,
+      "sha256": "6f8f9e00adcb960af501464e60bfa56b9ba0ce6d4b30f4d69764c8fb8433a54f",
+      "first_date_utc": "2025-04-25",
+      "last_date_utc": "2025-04-30",
+      "days": 6,
+      "records": 908658
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2025-05-part-01.zip",
+      "bytes": 21085249,
+      "sha256": "accf32400060735406178f96126524d4f1986c0bf794668cc81c0ce798934284",
+      "first_date_utc": "2025-05-01",
+      "last_date_utc": "2025-05-11",
+      "days": 11,
+      "records": 1719559
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2025-05-part-02.zip",
+      "bytes": 20669722,
+      "sha256": "424a26a910a2135fbcbec8be440fb4301a5a992da4feaa1757ce85041c0ff94e",
+      "first_date_utc": "2025-05-12",
+      "last_date_utc": "2025-05-20",
+      "days": 9,
+      "records": 1692854
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2025-05-part-03.zip",
+      "bytes": 20288321,
+      "sha256": "320b68321fd31c846d4f97cec76d4f48d7b9b25db85dd358b4cfe125655c1f5d",
+      "first_date_utc": "2025-05-21",
+      "last_date_utc": "2025-05-29",
+      "days": 9,
+      "records": 1671134
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2025-05-part-04.zip",
+      "bytes": 2925373,
+      "sha256": "ae94a5ec0599cb1c71674b9603644ccb3e3024362e664aae727103fd283fc6b3",
+      "first_date_utc": "2025-05-30",
+      "last_date_utc": "2025-05-31",
+      "days": 2,
+      "records": 241926
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2025-06-part-01.zip",
+      "bytes": 21293473,
+      "sha256": "ade0a158cb42756dcc6c5d4574192c34511890e76580b70f71066591c8bd27e9",
+      "first_date_utc": "2025-06-01",
+      "last_date_utc": "2025-06-10",
+      "days": 10,
+      "records": 1780488
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2025-06-part-02.zip",
+      "bytes": 21815837,
+      "sha256": "a143ce9ddd09580736e48d50f0c4f4050f4d970f3ec00bbc31b13832a503c681",
+      "first_date_utc": "2025-06-11",
+      "last_date_utc": "2025-06-22",
+      "days": 12,
+      "records": 1819138
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2025-06-part-03.zip",
+      "bytes": 13745412,
+      "sha256": "0d9e9d190dc23f8fe1ae4080eae5d836d06d325ec5e7ed8e2781deaf54e88059",
+      "first_date_utc": "2025-06-23",
+      "last_date_utc": "2025-06-30",
+      "days": 8,
+      "records": 1152580
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2025-07-part-01.zip",
+      "bytes": 20662539,
+      "sha256": "bbcfb5fd6538dc4fb79d72b677bdb2a69d9349d8a72a18deebc8df75a4db92c5",
+      "first_date_utc": "2025-07-01",
+      "last_date_utc": "2025-07-14",
+      "days": 14,
+      "records": 1733084
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2025-07-part-02.zip",
+      "bytes": 20020507,
+      "sha256": "ae9ea1ab6262c0462438ca334d9986dc320dfb180759a82199c7d7ce79e25c4e",
+      "first_date_utc": "2025-07-15",
+      "last_date_utc": "2025-07-27",
+      "days": 13,
+      "records": 1682766
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2025-07-part-03.zip",
+      "bytes": 9205894,
+      "sha256": "53f43bfb70893c51c05783ddd9dd80871ab71b820959c991a165e473ac9115bb",
+      "first_date_utc": "2025-07-28",
+      "last_date_utc": "2025-07-31",
+      "days": 4,
+      "records": 776433
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2025-08-part-01.zip",
+      "bytes": 18827518,
+      "sha256": "d932210bc31c3a6321f4227cb898e478fdf82b81536158d68bf92982254f927e",
+      "first_date_utc": "2025-08-01",
+      "last_date_utc": "2025-08-10",
+      "days": 10,
+      "records": 1553043
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2025-08-part-02.zip",
+      "bytes": 19827610,
+      "sha256": "8408469d9ca57dc1ee641cefd0b274223d14a18f10ef51240cee1412f4df3bcc",
+      "first_date_utc": "2025-08-11",
+      "last_date_utc": "2025-08-21",
+      "days": 11,
+      "records": 1678122
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2025-08-part-03.zip",
+      "bytes": 12880232,
+      "sha256": "343b71b476ab874ace671676dcb1127d949d09bf1522550f31779587379aaebd",
+      "first_date_utc": "2025-08-22",
+      "last_date_utc": "2025-08-31",
+      "days": 10,
+      "records": 1101129
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2025-09-part-01.zip",
+      "bytes": 20364314,
+      "sha256": "f1108b38380b7093e1c0260dac883e542700f391d8ed1d9db4243dcea2381c65",
+      "first_date_utc": "2025-09-01",
+      "last_date_utc": "2025-09-08",
+      "days": 8,
+      "records": 1688922
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2025-09-part-02.zip",
+      "bytes": 19738656,
+      "sha256": "d038034260aa0d17eec3bb1d6eda15c5b8ad2378708c5986a58ae6e9475ca728",
+      "first_date_utc": "2025-09-09",
+      "last_date_utc": "2025-09-17",
+      "days": 9,
+      "records": 1665885
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2025-09-part-03.zip",
+      "bytes": 21597872,
+      "sha256": "234c81f5052cd094a2503c41e508a1ad89eabbac5bd1800659351a81eebca73c",
+      "first_date_utc": "2025-09-18",
+      "last_date_utc": "2025-09-28",
+      "days": 11,
+      "records": 1831070
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2025-09-part-04.zip",
+      "bytes": 7466017,
+      "sha256": "d84825338d40853dadbbd1abd3931adb3ecf5263cf96af30da25d1c97bf7b61c",
+      "first_date_utc": "2025-09-29",
+      "last_date_utc": "2025-09-30",
+      "days": 2,
+      "records": 637924
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2025-10-part-01.zip",
+      "bytes": 21671152,
+      "sha256": "356b3e9276e3969f8d4980f9d8764487881bbbf9dac712699f1c3c65d937be10",
+      "first_date_utc": "2025-10-01",
+      "last_date_utc": "2025-10-08",
+      "days": 8,
+      "records": 1851463
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2025-10-part-02.zip",
+      "bytes": 21154935,
+      "sha256": "5e58d389c3bce8a3a4b40a692f2e49c634c94397548e22cdc2b14118351a7fe3",
+      "first_date_utc": "2025-10-09",
+      "last_date_utc": "2025-10-14",
+      "days": 6,
+      "records": 1756054
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2025-10-part-03.zip",
+      "bytes": 17619256,
+      "sha256": "552437047d7f66c04d5d9e2d7f826289f76e5280a69f374991b2b1d78bceada2",
+      "first_date_utc": "2025-10-15",
+      "last_date_utc": "2025-10-19",
+      "days": 5,
+      "records": 1409937
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2025-10-part-04.zip",
+      "bytes": 19958999,
+      "sha256": "e0442273a7e69ea0e341741c95bd940bb453263f15e76873098798807059c6d0",
+      "first_date_utc": "2025-10-20",
+      "last_date_utc": "2025-10-22",
+      "days": 3,
+      "records": 1565772
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2025-10-part-05.zip",
+      "bytes": 19345008,
+      "sha256": "f12f64af08d2b1a847ea814a57b1243f458e8a1738b493b530406c85382d4474",
+      "first_date_utc": "2025-10-23",
+      "last_date_utc": "2025-10-28",
+      "days": 6,
+      "records": 1579212
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2025-10-part-06.zip",
+      "bytes": 13701871,
+      "sha256": "77c8a65f0c8909535baadc9911fb56f2f31df8a264d19e65fcb2111a596468de",
+      "first_date_utc": "2025-10-29",
+      "last_date_utc": "2025-10-31",
+      "days": 3,
+      "records": 1133790
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2025-11-part-01.zip",
+      "bytes": 20495709,
+      "sha256": "dd1a488dd61e3a266f30f5d2f111e6acf4e0daf7d263e835f8b6ae07edee242e",
+      "first_date_utc": "2025-11-01",
+      "last_date_utc": "2025-11-10",
+      "days": 10,
+      "records": 1758433
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2025-11-part-02.zip",
+      "bytes": 17909857,
+      "sha256": "94a12e14e357e51703d7530382cca5040469b208b8861bcbc43a2a2292750090",
+      "first_date_utc": "2025-11-11",
+      "last_date_utc": "2025-11-16",
+      "days": 6,
+      "records": 1515059
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2025-11-part-03.zip",
+      "bytes": 17652745,
+      "sha256": "c94c60c5f6c6dc5445ffb3bf9c4d417895bda61cf3445cefc307730c95cbcf24",
+      "first_date_utc": "2025-11-17",
+      "last_date_utc": "2025-11-20",
+      "days": 4,
+      "records": 1499305
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2025-11-part-04.zip",
+      "bytes": 20785594,
+      "sha256": "ac46e7bfdf996f2359accf50b497fff278ed87c94795bc1a8095f7d2c8364e47",
+      "first_date_utc": "2025-11-21",
+      "last_date_utc": "2025-11-30",
+      "days": 10,
+      "records": 1765100
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2025-12-part-01.zip",
+      "bytes": 19786815,
+      "sha256": "8630d766c11c9ae1aa6250a643bbd62243fcb1babb1d03673378150ba4766ed3",
+      "first_date_utc": "2025-12-01",
+      "last_date_utc": "2025-12-07",
+      "days": 7,
+      "records": 1722570
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2025-12-part-02.zip",
+      "bytes": 19224786,
+      "sha256": "1e62b8fe64c0e6d1723c206a5869e1651b4c839c89ac93e1dfe849bd69b5d540",
+      "first_date_utc": "2025-12-08",
+      "last_date_utc": "2025-12-14",
+      "days": 7,
+      "records": 1682416
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2025-12-part-03.zip",
+      "bytes": 19424571,
+      "sha256": "3c4016bb88bbf289f3d59093a2b3516753640eefe64b72765c7717a9c15a1ec0",
+      "first_date_utc": "2025-12-15",
+      "last_date_utc": "2025-12-21",
+      "days": 7,
+      "records": 1694188
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2025-12-part-04.zip",
+      "bytes": 17292634,
+      "sha256": "eb9ce4d197f6985f382061549613e48dcdc1ce50f62935c091cdf5f3e7ac564c",
+      "first_date_utc": "2025-12-22",
+      "last_date_utc": "2025-12-28",
+      "days": 7,
+      "records": 1471169
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2025-12-part-05.zip",
+      "bytes": 17047007,
+      "sha256": "3427499b666d5158c972a21f853f874c207bc148f93438e160aa539ec7598392",
+      "first_date_utc": "2025-12-29",
+      "last_date_utc": "2025-12-31",
+      "days": 3,
+      "records": 1412108
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2026-01-part-01.zip",
+      "bytes": 17950729,
+      "sha256": "b488976bd9fc769f4951f776ca1c6b825d3d5a1996b3a131a0d156a9adf72a36",
+      "first_date_utc": "2026-01-01",
+      "last_date_utc": "2026-01-07",
+      "days": 7,
+      "records": 1542732
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2026-01-part-02.zip",
+      "bytes": 17632794,
+      "sha256": "71d6015821972f69a2aa861863a1e9fde1c694bc87b0fdc651235882680ebabe",
+      "first_date_utc": "2026-01-08",
+      "last_date_utc": "2026-01-13",
+      "days": 6,
+      "records": 1515797
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2026-01-part-03.zip",
+      "bytes": 19997157,
+      "sha256": "0f7f7ee4d8ba98aadffbc79ef0ecfe47534cb596cc17c23c458f981ea085d809",
+      "first_date_utc": "2026-01-14",
+      "last_date_utc": "2026-01-20",
+      "days": 7,
+      "records": 1735751
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2026-01-part-04.zip",
+      "bytes": 19760121,
+      "sha256": "470733834cfcfd0fa7d7c8794bdadedd4d00a07f7079ad7abb405a5c54155583",
+      "first_date_utc": "2026-01-21",
+      "last_date_utc": "2026-01-26",
+      "days": 6,
+      "records": 1656591
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2026-01-part-05.zip",
+      "bytes": 14099324,
+      "sha256": "c92dff9a7b43ce206cb30069d251d449b8f9afdac8ffcb2850ac7f5b5435b407",
+      "first_date_utc": "2026-01-27",
+      "last_date_utc": "2026-01-28",
+      "days": 2,
+      "records": 1133874
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2026-01-part-06.zip",
+      "bytes": 21268669,
+      "sha256": "e8c3159af7eb244b0ca1537d686b74c04ce875effba63512da2c6c98733b536c",
+      "first_date_utc": "2026-01-29",
+      "last_date_utc": "2026-01-31",
+      "days": 3,
+      "records": 1550317
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2026-02-part-01.zip",
+      "bytes": 20591203,
+      "sha256": "4439f45e46ac06351f85d44e7cdc0f4204ab91dcf4ccd64bf46456540afd2ca6",
+      "first_date_utc": "2026-02-01",
+      "last_date_utc": "2026-02-03",
+      "days": 3,
+      "records": 1504541
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2026-02-part-02.zip",
+      "bytes": 21826204,
+      "sha256": "aa4220cdabac7d1ff2d01271e881e991e3efaadc2c9dc3d7a0ab641c1548863c",
+      "first_date_utc": "2026-02-04",
+      "last_date_utc": "2026-02-07",
+      "days": 4,
+      "records": 1646876
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2026-02-part-03.zip",
+      "bytes": 21743425,
+      "sha256": "150296ae8811834a9ae42812da23d6ec2162eaaa4f095f0b96fbc619b73455f1",
+      "first_date_utc": "2026-02-08",
+      "last_date_utc": "2026-02-15",
+      "days": 8,
+      "records": 1731695
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2026-02-part-04.zip",
+      "bytes": 21536474,
+      "sha256": "7bf18956fbe9a7511585866a9e79784ff23b2844e13f946234fe16034e496155",
+      "first_date_utc": "2026-02-16",
+      "last_date_utc": "2026-02-24",
+      "days": 9,
+      "records": 1787116
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2026-02-part-05.zip",
+      "bytes": 10374072,
+      "sha256": "f40139c7a31eae204ee13b108da8da4391bed78c79d2b9ec2bf031d219b1aa4a",
+      "first_date_utc": "2026-02-25",
+      "last_date_utc": "2026-02-28",
+      "days": 4,
+      "records": 868111
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2026-03-part-01.zip",
+      "bytes": 18123933,
+      "sha256": "683990ced713eab1571f5ce3343a0a08955370babcd618d2a51b314cb9a3eeb8",
+      "first_date_utc": "2026-03-01",
+      "last_date_utc": "2026-03-04",
+      "days": 4,
+      "records": 1429380
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2026-03-part-02.zip",
+      "bytes": 21436382,
+      "sha256": "e30b124969107f2998a2eb368cd984270f419ccd75e5637d1d68ea006eb3c4ae",
+      "first_date_utc": "2026-03-05",
+      "last_date_utc": "2026-03-11",
+      "days": 7,
+      "records": 1792408
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2026-03-part-03.zip",
+      "bytes": 18266706,
+      "sha256": "2ee0b5cd8e046b71acd94ea371b6d0accae06a3fe63b65bc322c464dcd7826cf",
+      "first_date_utc": "2026-03-12",
+      "last_date_utc": "2026-03-18",
+      "days": 7,
+      "records": 1565325
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2026-03-part-04.zip",
+      "bytes": 13066070,
+      "sha256": "dd9e388da39cc0f78be020caa55d21ed9708ddb6f58f0c6bfa02571a9fd4757e",
+      "first_date_utc": "2026-03-19",
+      "last_date_utc": "2026-03-22",
+      "days": 4,
+      "records": 1062016
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2026-03-part-05.zip",
+      "bytes": 19251850,
+      "sha256": "c37381f6a976aa20bc666307c5d47000e1ddeb60ab771a4380fcec26657a3da1",
+      "first_date_utc": "2026-03-23",
+      "last_date_utc": "2026-03-24",
+      "days": 2,
+      "records": 1498416
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2026-03-part-06.zip",
+      "bytes": 20035574,
+      "sha256": "8d25bd2a91d8b34e496ff55e6341cfc45635bbe05fd312cbf7254f1fa1511871",
+      "first_date_utc": "2026-03-25",
+      "last_date_utc": "2026-03-30",
+      "days": 6,
+      "records": 1665718
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2026-03-part-07.zip",
+      "bytes": 4896768,
+      "sha256": "edfdac35f9cb34055e5064d508cd40a01cf0a6939b022ab67f0756bc491833fd",
+      "first_date_utc": "2026-03-31",
+      "last_date_utc": "2026-03-31",
+      "days": 1,
+      "records": 419916
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2026-04-part-01.zip",
+      "bytes": 20313790,
+      "sha256": "2d0670162ed08975c32c16f0313f7b479256b6f1ba99c372cb146e4f351c2b10",
+      "first_date_utc": "2026-04-01",
+      "last_date_utc": "2026-04-07",
+      "days": 7,
+      "records": 1689334
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2026-04-part-02.zip",
+      "bytes": 21150464,
+      "sha256": "15bc200e8df617fcd562b8d400a8cc704e465e7c51161be165d23b3f6e643268",
+      "first_date_utc": "2026-04-08",
+      "last_date_utc": "2026-04-15",
+      "days": 8,
+      "records": 1823303
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2026-04-part-03.zip",
+      "bytes": 17151855,
+      "sha256": "d8470d57dc4a58c0e25d3bd315ba3a8bc9a03f7da55f03877efd93ab499e2c3d",
+      "first_date_utc": "2026-04-16",
+      "last_date_utc": "2026-04-22",
+      "days": 7,
+      "records": 1495581
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2026-04-part-04.zip",
+      "bytes": 18432598,
+      "sha256": "423e14a57ec1d8516bf93103c28e313e053f46e12047be923158a2828574c4c4",
+      "first_date_utc": "2026-04-23",
+      "last_date_utc": "2026-04-28",
+      "days": 6,
+      "records": 1581421
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2026-04-part-05.zip",
+      "bytes": 10237881,
+      "sha256": "212b0592fc04f00e10905b262c8e53db8444e32b3994e6183074b284e40abaf8",
+      "first_date_utc": "2026-04-29",
+      "last_date_utc": "2026-04-30",
+      "days": 2,
+      "records": 880931
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2026-05-part-01.zip",
+      "bytes": 16702363,
+      "sha256": "d520d8bd4fe0be739e0c03a927e7e6f2b449bdc70f340c70fe9ae62bada8aa0a",
+      "first_date_utc": "2026-05-01",
+      "last_date_utc": "2026-05-06",
+      "days": 6,
+      "records": 1431089
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2026-05-part-02.zip",
+      "bytes": 19646307,
+      "sha256": "4f546732f4f962b02eab580ad245296ad3ad7c1fdaf2b806e8f54bd8496509ac",
+      "first_date_utc": "2026-05-07",
+      "last_date_utc": "2026-05-12",
+      "days": 6,
+      "records": 1675643
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2026-05-part-03.zip",
+      "bytes": 21779495,
+      "sha256": "192bb965f6ec5b3fac4f365b0e426730025247319b42d878780629c52fd72f49",
+      "first_date_utc": "2026-05-13",
+      "last_date_utc": "2026-05-18",
+      "days": 6,
+      "records": 1846035
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2026-05-part-04.zip",
+      "bytes": 20625949,
+      "sha256": "437abb1479f2be7bba5a5121e7eb1d7ec82578b5b4915a6a51a6016c665a3707",
+      "first_date_utc": "2026-05-19",
+      "last_date_utc": "2026-05-24",
+      "days": 6,
+      "records": 1764529
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2026-05-part-05.zip",
+      "bytes": 19319570,
+      "sha256": "4e06bd6977178e6304e0b4016155c7b5f27ef8e7f18ca2c3d63f4516e1ed266d",
+      "first_date_utc": "2026-05-25",
+      "last_date_utc": "2026-05-31",
+      "days": 7,
+      "records": 1613512
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2026-06-part-01.zip",
+      "bytes": 20117540,
+      "sha256": "c96d215a3e6f10cc6b93d7a8a75492957941c9367ef293379a33696545d5bbba",
+      "first_date_utc": "2026-06-01",
+      "last_date_utc": "2026-06-07",
+      "days": 7,
+      "records": 1688183
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2026-06-part-02.zip",
+      "bytes": 16458565,
+      "sha256": "ce41516214e5114bc154cf9e8320b71a302db0b641ae32de48211378346e63f3",
+      "first_date_utc": "2026-06-08",
+      "last_date_utc": "2026-06-10",
+      "days": 3,
+      "records": 1382248
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2026-06-part-03.zip",
+      "bytes": 17860983,
+      "sha256": "e7d2a49a4d660eea1c5c1eb3efc362f522ac3a3a5bec45e208803c6a9d7d0079",
+      "first_date_utc": "2026-06-11",
+      "last_date_utc": "2026-06-16",
+      "days": 6,
+      "records": 1496947
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2026-06-part-04.zip",
+      "bytes": 19983110,
+      "sha256": "3188433a5f32f8756b454fe4085bc2bd70e31923762422314a6d8786ec87ff82",
+      "first_date_utc": "2026-06-17",
+      "last_date_utc": "2026-06-23",
+      "days": 7,
+      "records": 1681858
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2026-06-part-05.zip",
+      "bytes": 19144143,
+      "sha256": "fa4afb216843761376415519f387c1cc9a39f78ce2273a5011e322f0306a7301",
+      "first_date_utc": "2026-06-24",
+      "last_date_utc": "2026-06-29",
+      "days": 6,
+      "records": 1611334
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2026-06-part-06.zip",
+      "bytes": 4025788,
+      "sha256": "f3173c84b9ff98f57934c5246294bfa8986c1ca590d9bcdb0fcda107e00cc1d7",
+      "first_date_utc": "2026-06-30",
+      "last_date_utc": "2026-06-30",
+      "days": 1,
+      "records": 340836
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2026-07-part-01.zip",
+      "bytes": 17367085,
+      "sha256": "025f553c842c7e8952f78763bc432b37a9e129886fc81adc678289338f2162a9",
+      "first_date_utc": "2026-07-01",
+      "last_date_utc": "2026-07-07",
+      "days": 7,
+      "records": 1506743
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2026-07-part-02.zip",
+      "bytes": 20951027,
+      "sha256": "75856e68108661fbc8ff9d8b675037c493d3eefdc65ec220ca0ad37745c27b48",
+      "first_date_utc": "2026-07-08",
+      "last_date_utc": "2026-07-14",
+      "days": 7,
+      "records": 1843851
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2026-07-part-03.zip",
+      "bytes": 18388855,
+      "sha256": "7fe3e6348dc76e1663bd6acbba03bc15dacc5362e51e782b1f274d132510d23c",
+      "first_date_utc": "2026-07-15",
+      "last_date_utc": "2026-07-20",
+      "days": 6,
+      "records": 1608532
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2026-07-part-04.zip",
+      "bytes": 19601965,
+      "sha256": "05f1a0a5335bcf68e9a5847632974aa59b8bd620d7869abc205167599efd0d17",
+      "first_date_utc": "2026-07-21",
+      "last_date_utc": "2026-07-28",
+      "days": 8,
+      "records": 1696196
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2026-07-part-05.zip",
+      "bytes": 9039514,
+      "sha256": "943926d21a70ccf0e7a9a91df151ef308e45ba38783ac559da1fe41885c7cd2e",
+      "first_date_utc": "2026-07-29",
+      "last_date_utc": "2026-07-31",
+      "days": 3,
+      "records": 760519
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2026-08-part-01.zip",
+      "bytes": 19588360,
+      "sha256": "1e38ec084c075f43f2a35fc53b29fde1aac98920de214f5e05b1b1360b777b6e",
+      "first_date_utc": "2026-08-01",
+      "last_date_utc": "2026-08-11",
+      "days": 11,
+      "records": 1625129
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2026-08-part-02.zip",
+      "bytes": 19747510,
+      "sha256": "f05d6717d981e07ba2c6fa642364da20cdef5fceda4866b0d04b37335cd63d0b",
+      "first_date_utc": "2026-08-12",
+      "last_date_utc": "2026-08-20",
+      "days": 9,
+      "records": 1652936
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2026-08-part-03.zip",
+      "bytes": 19199392,
+      "sha256": "6978dc4be107e726e585be2317248f833815c5bba3b381b4bccb95e7786546e6",
+      "first_date_utc": "2026-08-21",
+      "last_date_utc": "2026-08-30",
+      "days": 10,
+      "records": 1608157
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2026-08-part-04.zip",
+      "bytes": 3419684,
+      "sha256": "b21fa4c52a3148d7c9f9d70f1e50bf491a5186208037a0b92c143193ec44dfc8",
+      "first_date_utc": "2026-08-31",
+      "last_date_utc": "2026-08-31",
+      "days": 1,
+      "records": 284341
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2026-09-part-01.zip",
+      "bytes": 21194882,
+      "sha256": "e4615e0cc0472b96e24e923deca739b9bb29a33760e5cad4d9d24127c942155d",
+      "first_date_utc": "2026-09-01",
+      "last_date_utc": "2026-09-09",
+      "days": 9,
+      "records": 1767952
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2026-09-part-02.zip",
+      "bytes": 19878628,
+      "sha256": "d128f3fd28d31d682c07047301b8b11f82761b914b22e831dfa52180b96a7148",
+      "first_date_utc": "2026-09-10",
+      "last_date_utc": "2026-09-14",
+      "days": 5,
+      "records": 1556177
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2026-09-part-03.zip",
+      "bytes": 19414991,
+      "sha256": "e6ecaec5b6d98d78755a7a8bd29a9322f107920acb103d7d38dd0d2ccd949205",
+      "first_date_utc": "2026-09-15",
+      "last_date_utc": "2026-09-22",
+      "days": 8,
+      "records": 1616682
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2026-09-part-04.zip",
+      "bytes": 18532008,
+      "sha256": "ad7019bc99d33be71226e70fc957842aa5aab006d9d7ec59e13541d280b327e8",
+      "first_date_utc": "2026-09-23",
+      "last_date_utc": "2026-09-30",
+      "days": 8,
+      "records": 1589084
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2026-10-part-01.zip",
+      "bytes": 21570078,
+      "sha256": "e098a01499954bf7a4e58b5d65d1178eaac3b1b8c80df94fdc15257ad7df6aad",
+      "first_date_utc": "2026-10-01",
+      "last_date_utc": "2026-10-12",
+      "days": 12,
+      "records": 1852313
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2026-10-part-02.zip",
+      "bytes": 20043622,
+      "sha256": "a413066bc8d800d63ac61b2f81a4de5f2d517e33369d084aa26ef821fd92ff23",
+      "first_date_utc": "2026-10-13",
+      "last_date_utc": "2026-10-19",
+      "days": 7,
+      "records": 1623335
+    },
+    {
+      "file": "Dukascopy-XAUUSD-native-ticks-2026-10-part-03.zip",
+      "bytes": 19152628,
+      "sha256": "917ac63f13a67f106fd039b2a6b65333393d49ddb83be431b22ce911e2f4fe95",
+      "first_date_utc": "2026-10-20",
+      "last_date_utc": "2026-10-23",
+      "days": 4,
+      "records": 1516961
+    },
+    {
+      "file": "Dukascopy-XAUUSD-2016-10-24-through-2026-10-23-coverage-and-metadata.zip",
+      "bytes": 3666830,
+      "sha256": "5bb013cbde1378ecef45040af24b5fafa1f27990adb7d6dffab7827f86832a33",
+      "kind": "coverage_metadata"
+    }
+  ]
+}
